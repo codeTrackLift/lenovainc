@@ -11,12 +11,8 @@ html {
     font-family: 'Kaushan Script', cursive;
 }
 
-#carouselExampleCaptions {
-    width: 104vw;
-    min-height: 29rem;
-    max-height: 29rem;
-    margin-top: -8rem;
-    margin-bottom: 13rem;
+.carousel-item {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
 }
 
 #lenova {
