@@ -1,0 +1,70 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    background-color: transparent;
+}
+
+.kaushanFont {
+    font-family: 'Kaushan Script', cursive;
+}
+
+#carouselExampleCaptions {
+    width: 104vw;
+    min-height: 29rem;
+    max-height: 29rem;
+    margin-top: -8rem;
+    margin-bottom: 13rem;
+}
+
+#lenova {
+    font-size: 300%;
+    padding: 3rem 0 12rem 0;
+    font-style: italic;
+}
+
+.carousel-caption>p {
+    font-size: 150%;
+}
+
+.carousel-caption {
+    font-size: xx-large;
+}
+
+#about {
+    background-color: white;
+}
+
+#services {
+    background-color: transparent;
+}
+
+.card {
+    padding: 1rem;
+}
+
+.card-body>a {
+    background-color: #00857c;
+}
+
+#contact {
+    border: 3px solid #00857c;
+    border-radius: 10px;
+    background-color: dimgray;
+}
+
+form>button {
+    color:white;
+    border-radius: 10px;
+}
+
+form>button:hover {
+    background-color: cyan;
+    color: black
+}
+
+textarea {
+    resize: none;
+}
