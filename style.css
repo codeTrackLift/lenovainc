@@ -10,23 +10,32 @@ html {
 .kaushanFont {
     font-family: 'Kaushan Script', cursive;
 }
-
-.carousel-item {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
-}
-
-#lenova {
-    font-size: 300%;
-    padding: 3rem 0 12rem 0;
-    font-style: italic;
-}
-
-.carousel-caption>p {
-    font-size: 150%;
-}
-
 .carousel-caption {
-    font-size: xx-large;
+    display: flex;
+    flex-direction: column;
+    font-size: 200%;
+    gap: 15vw;
+}
+
+@media (max-width: 480px) {
+    .carousel-caption {
+        font-size: 125%;
+        gap: 5vw;
+    }
+}
+
+@media (min-width: 768px) {
+    .carousel-caption {
+        font-size: 300%;
+        gap: 20vw;
+    }
+}
+
+.carousel-caption>h1 {
+    font-size: 200%;
+    width: 100%;
+    max-width: 100%;
+    font-style: italic;
 }
 
 #about {
