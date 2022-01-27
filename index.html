@@ -27,25 +27,28 @@
     </head>
 
     <body>
-        <nav class="navbar navbar-expand-md navbar-p navbar-dark sticky-top">
+        <nav class="navbar navbar-expand-sm navbar-p navbar-dark sticky-top">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#"><img src="./pics/lenovalogosmall.gif" style='height:1.5rem;' alt=""></a>
+              <a class="navbar-brand d-none d-sm-block" href="#"><img src="./pics/lenovalogosmall.gif" style='height:1.5rem;' alt=""></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarScroll">
-                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll w-100 justify-content-evenly">
+                  <li class="nav-item">
+                    <a class="nav-link active d-block d-sm-none" aria-current="page" href="#about"><img src="./pics/lenovalogosmall.gif" style='height:1.5rem;' alt=""></a>
+                  </li>
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#about">About</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#services">Expertise</a>
+                    <a class="nav-link active" href="#services">Expertise</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link active" href="#">Link</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
+                    <a class="nav-link active" href="#contact">Contact</a>
                   </li>
                   <!-- <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">

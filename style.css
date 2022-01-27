@@ -11,14 +11,28 @@ nav {
     background-color: #00857c;
 }
 
-.dropdown-menu {
+.nav-link,.nav-item {
+    transition: all 0.5s ease-in-out;
+}
+
+.nav-link:hover {
+    background-color: white;
+    border-radius: .25rem;
+    color: #00857c !important;
+    font-weight: bolder;
+    border-left: 0.75rem solid white;
+    border-right: 0.75rem solid white;
+    transition: scale(1.5);
+}
+
+/* .dropdown-menu {
     border: none;
 }
 
 .dropdown-item {
     color: silver;
     background-color: transparent;
-}
+} */
 
 .nav-link:hover,.dropdown-item:hover {
     color: black;
@@ -46,6 +60,10 @@ nav {
     background-color: white;
     width: 80vw;
     max-width: 1280px;
+}
+
+figure>a {
+    margin: -2rem 0 0 10vw;
 }
 
 .h2 {
