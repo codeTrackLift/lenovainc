@@ -11,31 +11,36 @@ nav {
     background-color: #00857c;
 }
 
+#menuLogo {
+    transition: transform 0.5s ease-in-out;
+}
+
+#menuLogo:hover{
+    padding-left: -1rem;
+    transform: scale(1.2);
+}
+
 .nav-link,.nav-item {
     transition: all 0.5s ease-in-out;
+    width: fit-content;
+    padding: 0.25rem;
+    border-radius: 0.25rem;
 }
 
-.nav-link:hover {
+.nav-link.active:hover {
     background-color: white;
     border-radius: .25rem;
-    color: #00857c !important;
+    color: #00857c  !important;
     font-weight: bolder;
-    border-left: 0.75rem solid white;
-    border-right: 0.75rem solid white;
-    transition: scale(1.5);
+    text-decoration: underline;
+    font-size: 1rem;
 }
 
-/* .dropdown-menu {
-    border: none;
-}
-
-.dropdown-item {
-    color: silver;
-    background-color: transparent;
-} */
-
-.nav-link:hover,.dropdown-item:hover {
-    color: black;
+@media (max-width:575px) {
+    .nav-link.active:hover {
+        border-left: 0.25rem solid white;
+        border-right: 0.25rem solid white;
+    }
 }
 
 .carousel-item>img {
@@ -128,4 +133,23 @@ footer {
     color: silver;
     background-color: #00857c;
     border-radius: 0.25rem 0.25rem 0 0;
+}
+
+/* Animations Below */
+/* .sceneMainLogo {
+    transition: all 0.5 ease-in-out;
+    transform: skew(45deg, 45deg);
+}
+
+.sceneMainLogo.show {
+    transform: skew(0deg, 0deg);
+} */
+
+.btn1,.btn2,.btn3,.btn4,.btn5,.btn6,.btn7,.btn8,.btn9,.card1,.card2,.card3,.card4,.card5,.card6 {
+    transition: all 0.5s ease-in-out;
+    opacity: 0;
+}
+
+.btn1.show,.btn2.show,.btn3.show,.btn4.show,.btn5.show,.btn6.show,.btn7.show,.btn8.show,.btn9.show,.card1.show,.card2.show,.card3.show,.card4.show,.card5.show,.card6.show {
+    opacity: 1;
 }
