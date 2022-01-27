@@ -1,35 +1,65 @@
 *, *::before, *::after {
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    font-size: 2vmin;
 }
 
 html {
     background-color: black;
+    position: absolute;
 }
 
-.kaushanFont {
-    font-family: 'Kaushan Script', cursive;
+nav {
+    background-color: #00857c;
 }
+
+.dropdown-menu {
+    border: none;
+}
+
+.dropdown-item {
+    color: silver;
+    background-color: transparent;
+}
+
+.nav-link:hover,.dropdown-item:hover {
+    background-color:transparent;
+    color: black;
+}
+
+.carousel-item {
+    max-height: 100vh;
+    position: relative;
+}
+
 .carousel-caption {
     display: flex;
     flex-direction: column;
     font-size: 5vmin;
+    gap: 5vmin;
     height: 50vmin;
 }
 
-/* @media (max-width: 480px) {
+@media (max-width: 480px) {
     .carousel-caption {
-        font-size: 125%;
-        gap: 5vw;
+        gap: 10vmin;
+        height: 50vmin;
     }
 }
 
 @media (min-width: 768px) {
     .carousel-caption {
-        font-size: 300%;
-        gap: 20vw;
+        gap: 10vmin;
+        height: 60vmin;
     }
-} */
+
+}
+@media (min-width: 1280px) {
+    .carousel-caption {
+        gap: 15vmin;
+        height: 80vmin;
+    }
+}
 
 .carousel-caption>h1 {
     font-size: 200%;
@@ -38,38 +68,76 @@ html {
     font-style: italic;
 }
 
+#logo {
+    background-color: transparent;
+    top: 0;
+    position: absolute;
+    max-height: 80vmin;
+}
+
 #about {
     background-color: white;
+    width: 80vw;
+    max-width: 1280px;
+}
+
+.h2 {
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.btn {
+    border: 0.125rem solid #00857c;
+    background-color: #00857c;
+    color: white;
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: #00857c;
 }
 
 #services {
-    background-color: transparent;
+    background-color: #00857c;
 }
 
 .card {
     padding: 1rem;
+    border-radius: .25rem;
+    border: none;
 }
 
 .card-body>a {
     background-color: #00857c;
 }
 
+.card-img-top {
+    border-radius: .25rem;
+}
+
 #contact {
-    border: 3px solid #00857c;
-    border-radius: 10px;
-    background-color: dimgray;
+    margin: 3rem auto 6rem auto;
+    width: 80vw;
+    max-width: 1920px;
 }
 
-form>button {
-    color:white;
-    border-radius: 10px;
-}
-
-form>button:hover {
-    background-color: cyan;
-    color: black
-}
-
-textarea {
+.form-item>input,.form-item>textarea {
+    background-color: transparent;
+    color: white;
+    border-radius: 0.25rem;
+    margin-bottom: 0.5rem;
+    border: .125rem solid black;
     resize: none;
+}
+
+.form-item>label {
+    font-weight: bolder;
+    align-self: center;
+    display: flex;
+    justify-content: start;
+}
+
+footer {
+    color: gray;
 }
