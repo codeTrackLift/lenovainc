@@ -13,11 +13,11 @@ html {
 .carousel-caption {
     display: flex;
     flex-direction: column;
-    font-size: 200%;
-    gap: 15vw;
+    font-size: 5vmin;
+    height: 50vmin;
 }
 
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
     .carousel-caption {
         font-size: 125%;
         gap: 5vw;
@@ -29,7 +29,7 @@ html {
         font-size: 300%;
         gap: 20vw;
     }
-}
+} */
 
 .carousel-caption>h1 {
     font-size: 200%;
