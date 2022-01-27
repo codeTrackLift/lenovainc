@@ -1,11 +1,11 @@
 *, *::before, *::after {
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    font-size: 2vmin;
 }
 
 html {
     position: absolute;
+    /* background-color: #00857c; */
 }
 
 nav {
@@ -22,12 +22,11 @@ nav {
 }
 
 .nav-link:hover,.dropdown-item:hover {
-    /* background-color:transparent; */
     color: black;
 }
 
 .carousel-item {
-    max-height: 100vh;
+    max-height: 75vh;
     position: relative;
 }
 
