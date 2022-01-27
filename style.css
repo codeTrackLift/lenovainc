@@ -5,7 +5,6 @@
 }
 
 html {
-    background-color: black;
     position: absolute;
 }
 
@@ -23,7 +22,7 @@ nav {
 }
 
 .nav-link:hover,.dropdown-item:hover {
-    background-color:transparent;
+    /* background-color:transparent; */
     color: black;
 }
 
@@ -139,5 +138,6 @@ nav {
 }
 
 footer {
-    color: gray;
+    color: silver;
+    background-color: #00857c;
 }
