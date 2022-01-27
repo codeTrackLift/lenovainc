@@ -136,20 +136,12 @@ footer {
 }
 
 /* Animations Below */
-/* .sceneMainLogo {
-    transition: all 0.5 ease-in-out;
-    transform: skew(45deg, 45deg);
-}
 
-.sceneMainLogo.show {
-    transform: skew(0deg, 0deg);
-} */
-
-.btn1,.btn2,.btn3,.btn4,.btn5,.btn6,.btn7,.btn8,.btn9,.card1,.card2,.card3,.card4,.card5,.card6 {
-    transition: all 0.5s ease-in-out;
+.btn1,.btn2,.btn3,.btn4,.btn5,.btn6,.btn7,.btn8 {
+    transition: all 1s ease-in-out;
     opacity: 0;
 }
 
-.btn1.show,.btn2.show,.btn3.show,.btn4.show,.btn5.show,.btn6.show,.btn7.show,.btn8.show,.btn9.show,.card1.show,.card2.show,.card3.show,.card4.show,.card5.show,.card6.show {
+.btn1.show,.btn2.show,.btn3.show,.btn4.show,.btn5.show,.btn6.show,.btn7.show,.btn8.show {
     opacity: 1;
 }
