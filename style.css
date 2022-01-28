@@ -3,15 +3,17 @@
     font-family: 'Roboto', sans-serif;
 }
 
-html {
+html,footer {
     overflow-x: hidden;
     width: 100%;
     min-height: 100%;
 }
 
-.container-fluid {
+.container-fluid,#footer {
     margin: 0;
-    padding: 0;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-bottom: 0 !important;
 }
 
 nav,.dropdown-menu {
@@ -136,7 +138,7 @@ figure>a {
     font-weight: bolder;
 }
 
-#services {
+.bgEffectMid {
     background-image: radial-gradient(farthest-side at 85% 15%, #00857c, silver, #00857c);
 }
 
@@ -176,9 +178,8 @@ figure>a {
     justify-content: start;
 }
 
-footer {
+#footer {
     color: white;
-    background-color: #00857c;
 }
 
 /* Animations Below */
@@ -189,4 +190,21 @@ footer {
 
 .btn1.show,.btn2.show,.btn3.show,.btn4.show,.btn5.show,.btn6.show,.btn7.show,.btn8.show {
     opacity: 1;
+}
+
+/* Styling for Additional Pages */
+#homePage {
+    background-color: transparent;
+    color: #00857c;
+}
+
+.img-fluid.rounded {
+    transition: all 0.5s ease-in-out;
+}
+.img-fluid.rounded:hover {
+    transform: scale(1.05);
+}
+
+.contentBlock {
+    max-width: 1280px;
 }
