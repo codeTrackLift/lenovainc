@@ -206,5 +206,5 @@ figure>a {
 }
 
 .contentBlock {
-    max-width: 1280px;
+    max-width: 1280px !important;
 }
