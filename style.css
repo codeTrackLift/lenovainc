@@ -22,7 +22,7 @@ nav,.dropdown-menu {
 .bgEffectNav {
     background:
         linear-gradient(#00857c, transparent),
-        linear-gradient(to top left, dimgray, transparent),
+        linear-gradient(to top left, silver, transparent),
         linear-gradient(to top right, #00857c, transparent);
     background-blend-mode: screen;
 }
@@ -31,7 +31,7 @@ nav,.dropdown-menu {
     background:
         linear-gradient(transparent, #00857c),
         linear-gradient(to top left, transparent, #00857c),
-        linear-gradient(to top right, transparent, dimgray);
+        linear-gradient(to top right, transparent, silver);
     background-blend-mode: screen;
 }
 
