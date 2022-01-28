@@ -19,6 +19,12 @@ nav,.dropdown-menu {
     padding-left: 0.5rem;
 }
 
+@media (min-width:575px) {
+    .navbar {
+        height: 2rem;
+    }
+}
+
 .bgEffectNav {
     background:
         linear-gradient(#00857c, transparent),
@@ -41,7 +47,7 @@ nav,.dropdown-menu {
 
 #menuLogo:hover{
     padding-left: -1rem;
-    transform: scale(1.2);
+    transform: scale(0.9);
 }
 
 .effect {
@@ -65,6 +71,13 @@ nav,.dropdown-menu {
         border-left: 0.25rem solid white;
         border-right: 0.25rem solid white;
     }
+    nav {
+        height: 0;
+    }
+    .nav-item {
+        background-color: #00857c;
+        padding-left: 0.5rem;
+    }
 }
 
 .carousel-item>img {
@@ -85,14 +98,25 @@ nav,.dropdown-menu {
 }
 
 #about {
-    background-color: white;
-    width: 80vw;
     max-width: 1280px;
-    padding-left: 12vw;
 }
 
 figure>a {
     margin: -2vmin 0 0 10vw;
+}
+
+#aboutImg {
+    border-radius: 50%;
+    object-fit: cover;
+    height: 30vmin;
+    width: 30vmin;
+    opacity: 0.3;
+    transition: all 0.5s ease-in-out;
+    margin-left: -35vmin;
+}
+
+#aboutImg:hover,#aboutImg.show {
+    transform: scale(-1, 1) scale(1.5);
 }
 
 .h2 {
@@ -112,10 +136,10 @@ figure>a {
     background-color: transparent;
     color: #00857c;
     transform: scale(1.05);
+    font-weight: bolder;
 }
 
 #services {
-    /* background-color: #00857c; */
     background-image: radial-gradient(farthest-side at 85% 15%, #00857c, silver, #00857c);
 }
 
@@ -156,7 +180,7 @@ figure>a {
 }
 
 footer {
-    color: silver;
+    color: white;
     background-color: #00857c;
 }
 

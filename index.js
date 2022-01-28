@@ -7,6 +7,15 @@ var btn1 = new ScrollMagic.Scene({
 .setClassToggle('.btn1', 'show')
 .addTo(controllerBtn1);
 
+var controllerAboutImg = new ScrollMagic.Controller();
+var aboutImg = new ScrollMagic.Scene({
+    triggerElement: '#aboutImg',
+    offset: 100,
+    duration: 500
+})
+.setClassToggle('#aboutImg', 'show')
+.addTo(controllerAboutImg);
+
 var controllerBtn2 = new ScrollMagic.Controller();
 var btn2 = new ScrollMagic.Scene({
     triggerElement: '.btn2',
