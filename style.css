@@ -19,6 +19,22 @@ nav,.dropdown-menu {
     padding-left: 0.5rem;
 }
 
+.bgEffectNav {
+    background:
+        linear-gradient(#00857c, transparent),
+        linear-gradient(to top left, dimgray, transparent),
+        linear-gradient(to top right, #00857c, transparent);
+    background-blend-mode: screen;
+}
+
+.bgEffectFooter {
+    background:
+        linear-gradient(transparent, #00857c),
+        linear-gradient(to top left, transparent, #00857c),
+        linear-gradient(to top right, transparent, dimgray);
+    background-blend-mode: screen;
+}
+
 #menuLogo {
     transition: transform 0.5s ease-in-out;
 }
@@ -99,7 +115,8 @@ figure>a {
 }
 
 #services {
-    background-color: #00857c;
+    /* background-color: #00857c; */
+    background-image: radial-gradient(farthest-side at 85% 15%, #00857c, silver, #00857c);
 }
 
 .card {

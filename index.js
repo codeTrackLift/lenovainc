@@ -1,7 +1,7 @@
 var controllerBtn1 = new ScrollMagic.Controller();
 var btn1 = new ScrollMagic.Scene({
     triggerElement: '.btn1',
-    offset: -250,
+    offset: -350,
     duration: 700
 })
 .setClassToggle('.btn1', 'show')
@@ -10,7 +10,7 @@ var btn1 = new ScrollMagic.Scene({
 var controllerBtn2 = new ScrollMagic.Controller();
 var btn2 = new ScrollMagic.Scene({
     triggerElement: '.btn2',
-    offset: -250,
+    offset: -350,
     duration: 700
 })
 .setClassToggle('.btn2', 'show')
@@ -19,7 +19,7 @@ var btn2 = new ScrollMagic.Scene({
 var controllerBtn3 = new ScrollMagic.Controller();
 var btn3 = new ScrollMagic.Scene({
     triggerElement: '.btn3',
-    offset: -250,
+    offset: -350,
     duration: 700
 })
 .setClassToggle('.btn3', 'show')
@@ -28,7 +28,7 @@ var btn3 = new ScrollMagic.Scene({
 var controllerBtn4 = new ScrollMagic.Controller();
 var btn4 = new ScrollMagic.Scene({
     triggerElement: '.btn4',
-    offset: -250,
+    offset: -350,
     duration: 700
 })
 .setClassToggle('.btn4', 'show')
@@ -37,7 +37,7 @@ var btn4 = new ScrollMagic.Scene({
 var controllerBtn5 = new ScrollMagic.Controller();
 var btn5 = new ScrollMagic.Scene({
     triggerElement: '.btn5',
-    offset: -250,
+    offset: -350,
     duration: 700
 })
 .setClassToggle('.btn5', 'show')
@@ -46,7 +46,7 @@ var btn5 = new ScrollMagic.Scene({
 var controllerBtn6 = new ScrollMagic.Controller();
 var btn6 = new ScrollMagic.Scene({
     triggerElement: '.btn6',
-    offset: -250,
+    offset: -350,
     duration: 700
 })
 .setClassToggle('.btn6', 'show')
@@ -55,7 +55,7 @@ var btn6 = new ScrollMagic.Scene({
 var controllerBtn7 = new ScrollMagic.Controller();
 var btn7 = new ScrollMagic.Scene({
     triggerElement: '.btn7',
-    offset: -250,
+    offset: -350,
     duration: 700
 })
 .setClassToggle('.btn7', 'show')
@@ -64,7 +64,7 @@ var btn7 = new ScrollMagic.Scene({
 var controllerBtn8 = new ScrollMagic.Controller();
 var btn8 = new ScrollMagic.Scene({
     triggerElement: '.btn8',
-    offset: -250,
+    offset: -350,
     duration: 700
 })
 .setClassToggle('.btn8', 'show')
