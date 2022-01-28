@@ -3,14 +3,20 @@
     font-family: 'Roboto', sans-serif;
 }
 
-html, body {
-    /* position: absolute; */
-    max-width: 100%;
+html {
     overflow-x: hidden;
+    width: 100%;
+    min-height: 100%;
 }
 
-nav {
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+nav,.dropdown-menu {
     background-color: #00857c;
+    padding-left: 0.5rem;
 }
 
 #menuLogo {
@@ -22,24 +28,24 @@ nav {
     transform: scale(1.2);
 }
 
-.nav-link,.nav-item {
+.effect {
     transition: all 0.5s ease-in-out;
     width: fit-content;
     padding: 0.25rem;
     border-radius: 0.25rem;
+    color: white !important;
 }
 
-.nav-link.active:hover {
+.effect:hover {
     background-color: white;
     border-radius: .25rem;
     color: #00857c  !important;
     font-weight: bolder;
-    text-decoration: underline;
     font-size: 1rem;
 }
 
 @media (max-width:575px) {
-    .nav-link.active:hover {
+    .effect:hover {
         border-left: 0.25rem solid white;
         border-right: 0.25rem solid white;
     }
@@ -47,7 +53,6 @@ nav {
 
 .carousel-item>img {
     position: relative;
-    border-radius: 0 0 0.25rem 0.25rem;
 }
 
 #logo {
@@ -67,10 +72,11 @@ nav {
     background-color: white;
     width: 80vw;
     max-width: 1280px;
+    padding-left: 12vw;
 }
 
 figure>a {
-    margin: -2rem 0 0 10vw;
+    margin: -2vmin 0 0 10vw;
 }
 
 .h2 {
@@ -83,16 +89,17 @@ figure>a {
     border: 0.125rem solid #00857c;
     background-color: #00857c;
     color: white;
+    transition: all .5s ease-in-out;
 }
 
 .btn:hover {
     background-color: transparent;
     color: #00857c;
+    transform: scale(1.05);
 }
 
 #services {
     background-color: #00857c;
-    border-radius: 0.25rem;
 }
 
 .card {
@@ -134,13 +141,11 @@ figure>a {
 footer {
     color: silver;
     background-color: #00857c;
-    border-radius: 0.25rem 0.25rem 0 0;
 }
 
 /* Animations Below */
 
 .btn1,.btn2,.btn3,.btn4,.btn5,.btn6,.btn7,.btn8 {
-    transition: all 1s ease-in-out;
     opacity: 0;
 }
 
