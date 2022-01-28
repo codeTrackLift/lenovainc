@@ -47,7 +47,7 @@ nav,.dropdown-menu {
 
 #menuLogo:hover{
     padding-left: -1rem;
-    transform: scale(0.9);
+    transform: scale(1.1);
 }
 
 .effect {
@@ -67,7 +67,11 @@ nav,.dropdown-menu {
 }
 
 @media (max-width:575px) {
+    .effect {
+        transition: all 0s ease-in-out;
+    }
     .effect:hover {
+        margin-left: -0.25rem;
         border-left: 0.25rem solid white;
         border-right: 0.25rem solid white;
     }
