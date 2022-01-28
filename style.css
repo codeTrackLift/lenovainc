@@ -55,10 +55,15 @@ nav,.dropdown-menu {
     width: fit-content;
     padding: 0.25rem;
     border-radius: 0.25rem;
+    color: darkslategray !important;
+    font-weight: bolder;
+}
+
+.effect.dropdown-item {
     color: white !important;
 }
 
-.effect:hover {
+.effect:hover,.effect.dropdown-item:hover {
     background-color: white;
     border-radius: .25rem;
     color: #00857c  !important;
@@ -69,6 +74,7 @@ nav,.dropdown-menu {
 @media (max-width:575px) {
     .effect {
         transition: all 0s ease-in-out;
+        color: white !important;
     }
     .effect:hover {
         margin-left: -0.25rem;
