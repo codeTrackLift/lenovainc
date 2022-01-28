@@ -3,8 +3,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
-html {
-    position: absolute;
+html, body {
+    /* position: absolute; */
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 nav {
