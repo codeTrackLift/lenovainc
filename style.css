@@ -54,21 +54,14 @@ nav,.dropdown-menu {
     transition: all 0.5s ease-in-out;
     width: fit-content;
     padding: 0.25rem;
-    border-radius: 0.25rem;
-    color: darkslategray !important;
+    color: white !important;
     font-weight: bolder;
 }
 
-.effect.dropdown-item {
-    color: white !important;
-}
-
-.effect:hover,.effect.dropdown-item:hover {
+.effect:hover {
     background-color: white;
-    border-radius: .25rem;
     color: #00857c  !important;
     font-weight: bolder;
-    font-size: 1rem;
 }
 
 @media (max-width:575px) {
@@ -99,12 +92,6 @@ nav,.dropdown-menu {
     top: 0;
     position: absolute;
     max-height: 80vmin;
-}
-
-@media (max-width:480px) {
-    #logo {
-        /* margin-top: 3rem; */
-    }
 }
 
 #about {
