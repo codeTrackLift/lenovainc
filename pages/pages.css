@@ -3,17 +3,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
-html,footer {
+html {
     overflow-x: hidden;
     width: 100%;
     min-height: 100%;
-}
-
-.container-fluid {
-    margin: 0;
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-    padding-bottom: 0 !important;
 }
 
 nav,.dropdown-menu {
@@ -96,10 +89,6 @@ nav,.dropdown-menu {
     max-height: 80vmin;
 }
 
-#about {
-    max-width: 1280px;
-}
-
 figure>a {
     margin: -2vmin 0 0 10vw;
 }
@@ -142,44 +131,11 @@ figure>a {
     background-image: radial-gradient(farthest-side at 85% 15%, #00857c, silver, #00857c);
 }
 
-.card {
-    padding: 1rem;
-    border-radius: 0.25rem;
-    border: none;
-}
-
-.card-body>a {
-    background-color: #00857c;
-}
-
-.card-img-top {
-    border-radius: .25rem;
-}
-
-#contact {
-    margin: 3rem auto 6rem auto;
-    width: 80vw;
-    max-width: 1920px;
-}
-
-.form-item>input,.form-item>textarea {
-    background-color: transparent;
+#footer {
     color: white;
-    border-radius: 0.25rem;
-    margin-bottom: 0.5rem;
-    border: .125rem solid black;
-    resize: none;
-}
-
-.form-item>label {
-    font-weight: bolder;
-    align-self: center;
-    display: flex;
-    justify-content: start;
-}
-
-footer {
-    color: white;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
 /* Animations Below */
@@ -193,7 +149,7 @@ footer {
 }
 
 /* Styling for Additional Pages */
-/* #homePage {
+#homePage {
     background-color: transparent;
     color: #00857c;
 }
@@ -207,4 +163,4 @@ footer {
 
 .contentBlock {
     max-width: 1280px !important;
-} */
+}
