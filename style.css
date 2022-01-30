@@ -164,7 +164,7 @@ figure>a {
 
 .form-item>input,.form-item>textarea {
     background-color: transparent;
-    color: white;
+    color: #00857c;
     border-radius: 0.25rem;
     margin-bottom: 0.5rem;
     border: .125rem solid black;
