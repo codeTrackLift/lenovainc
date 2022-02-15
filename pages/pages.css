@@ -20,7 +20,7 @@ nav,.dropdown-menu {
     }
 }
 
-.bgEffectNav {
+/* .bgEffectNav {
     background:
         linear-gradient(#00857c, transparent),
         linear-gradient(to top left, silver, transparent),
@@ -34,7 +34,7 @@ nav,.dropdown-menu {
         linear-gradient(to top left, transparent, #00857c),
         linear-gradient(to top right, transparent, silver);
     background-blend-mode: screen;
-}
+} */
 
 #menuLogo {
     transition: transform 0.5s ease-in-out;
@@ -159,8 +159,4 @@ figure>a {
 }
 .img-fluid.rounded:hover {
     transform: scale(1.05);
-}
-
-.contentBlock {
-    max-width: 1280px !important;
 }
