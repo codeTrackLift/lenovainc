@@ -1,0 +1,52 @@
+nav,.dropdown-menu {
+    background-color: #00857c;
+    padding-left: 0.5rem;
+}
+
+@media (min-width:575px) {
+    .navbar {
+        height: 2rem;
+    }
+}
+
+#menuLogo {
+    transition: transform 0.5s ease-in-out;
+}
+
+#menuLogo:hover{
+    padding-left: -1rem;
+    transform: scale(1.1);
+}
+
+.effect {
+    transition: all 0.5s ease-in-out;
+    width: fit-content;
+    padding: 0.25rem;
+    color: white !important;
+    font-weight: bolder;
+}
+
+.effect:hover {
+    background-color: white;
+    color: #00857c  !important;
+    font-weight: bolder;
+}
+
+@media (max-width:575px) {
+    .effect {
+        transition: all 0s ease-in-out;
+        color: white !important;
+    }
+    .effect:hover {
+        margin-left: -0.25rem;
+        border-left: 0.25rem solid white;
+        border-right: 0.25rem solid white;
+    }
+    nav {
+        height: 0;
+    }
+    .nav-item {
+        background-color: #00857c;
+        padding-left: 0.5rem;
+    }
+}

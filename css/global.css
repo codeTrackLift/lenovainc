@@ -1,5 +1,7 @@
 *, *::before, *::after {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -10,79 +12,11 @@ html,footer {
 }
 
 .container-fluid {
-    margin: 0;
+    margin: 0 auto;
     padding-left: 0 !important;
     padding-right: 0 !important;
     padding-bottom: 0 !important;
-}
-
-nav,.dropdown-menu {
-    background-color: #00857c;
-    padding-left: 0.5rem;
-}
-
-@media (min-width:575px) {
-    .navbar {
-        height: 2rem;
-    }
-}
-
-/* .bgEffectNav {
-    background:
-        linear-gradient(#00857c, transparent),
-        linear-gradient(to top left, silver, transparent),
-        linear-gradient(to top right, #00857c, transparent);
-    background-blend-mode: screen;
-} */
-
-/* .bgEffectFooter {
-    background:
-        linear-gradient(transparent, #00857c),
-        linear-gradient(to top left, transparent, #00857c),
-        linear-gradient(to top right, transparent, silver);
-    background-blend-mode: screen;
-} */
-
-#menuLogo {
-    transition: transform 0.5s ease-in-out;
-}
-
-#menuLogo:hover{
-    padding-left: -1rem;
-    transform: scale(1.1);
-}
-
-.effect {
-    transition: all 0.5s ease-in-out;
-    width: fit-content;
-    padding: 0.25rem;
-    color: white !important;
-    font-weight: bolder;
-}
-
-.effect:hover {
-    background-color: white;
-    color: #00857c  !important;
-    font-weight: bolder;
-}
-
-@media (max-width:575px) {
-    .effect {
-        transition: all 0s ease-in-out;
-        color: white !important;
-    }
-    .effect:hover {
-        margin-left: -0.25rem;
-        border-left: 0.25rem solid white;
-        border-right: 0.25rem solid white;
-    }
-    nav {
-        height: 0;
-    }
-    .nav-item {
-        background-color: #00857c;
-        padding-left: 0.5rem;
-    }
+    max-width: 1280px;
 }
 
 .carousel-item>img {
@@ -136,10 +70,6 @@ figure>a {
     color: #00857c;
     transform: scale(1.05);
     font-weight: bolder;
-}
-
-.bgEffectMid {
-    background-image: radial-gradient(farthest-side at 85% 15%, #00857c, white, #00857c);
 }
 
 .card {
@@ -197,20 +127,3 @@ footer {
 .btn1.show,.btn2.show,.btn3.show,.btn4.show,.btn5.show,.btn6.show,.btn7.show,.btn8.show {
     opacity: 1;
 }
-
-/* Styling for Additional Pages */
-/* #homePage {
-    background-color: transparent;
-    color: #00857c;
-}
-
-.img-fluid.rounded {
-    transition: all 0.5s ease-in-out;
-}
-.img-fluid.rounded:hover {
-    transform: scale(1.05);
-}
-
-.contentBlock {
-    max-width: 1280px !important;
-} */
