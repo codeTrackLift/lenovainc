@@ -1,0 +1,146 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    overflow-x: hidden;
+    width: 100%;
+    min-height: 100%;
+}
+
+nav,.dropdown-menu {
+    background-color: #00857c;
+    padding-left: 0.5rem;
+}
+
+@media (min-width:575px) {
+    .navbar {
+        height: 2rem;
+    }
+}
+
+#menuLogo {
+    transition: transform 0.5s ease-in-out;
+}
+
+#menuLogo:hover{
+    padding-left: -1rem;
+    transform: scale(1.1);
+}
+
+.effect {
+    transition: all 0.5s ease-in-out;
+    width: fit-content;
+    padding: 0.25rem;
+    color: white !important;
+    font-weight: bolder;
+}
+
+.effect:hover {
+    background-color: white;
+    color: #00857c  !important;
+    font-weight: bolder;
+}
+
+@media (max-width:575px) {
+    .effect {
+        transition: all 0s ease-in-out;
+        color: white !important;
+    }
+    .effect:hover {
+        margin-left: -0.25rem;
+        border-left: 0.25rem solid white;
+        border-right: 0.25rem solid white;
+    }
+    nav {
+        height: 0;
+    }
+    .nav-item {
+        background-color: #00857c;
+        padding-left: 0.5rem;
+    }
+}
+
+.carousel-item>img {
+    position: relative;
+}
+
+#logo {
+    background-color: transparent;
+    top: 0;
+    position: absolute;
+    max-height: 80vmin;
+}
+
+figure>a {
+    margin: -2vmin 0 0 10vw;
+}
+
+#aboutImg {
+    border-radius: 50%;
+    object-fit: cover;
+    height: 30vmin;
+    width: 30vmin;
+    opacity: 0.3;
+    transition: all 0.5s ease-in-out;
+    margin-left: -35vmin;
+}
+
+#aboutImg:hover,#aboutImg.show {
+    transform: scale(-1, 1) scale(1.5);
+}
+
+.h2 {
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.btn {
+    border: 0.125rem solid #00857c;
+    background-color: #00857c;
+    color: white;
+    transition: all .5s ease-in-out;
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: #00857c;
+    transform: scale(1.05);
+    font-weight: bolder;
+}
+
+.bgEffectMid {
+    background-image: radial-gradient(farthest-side at 85% 15%, #00857c, silver, #00857c);
+}
+
+/* #footer {
+    color: white;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+} */
+
+/* Animations Below */
+
+.btn1,.btn2,.btn3,.btn4,.btn5,.btn6,.btn7,.btn8 {
+    opacity: 0;
+}
+
+.btn1.show,.btn2.show,.btn3.show,.btn4.show,.btn5.show,.btn6.show,.btn7.show,.btn8.show {
+    opacity: 1;
+}
+
+/* Styling for Additional Pages */
+#homePage {
+    background-color: transparent;
+    color: #00857c;
+}
+
+.img-fluid.rounded {
+    transition: all 0.5s ease-in-out;
+}
+.img-fluid.rounded:hover {
+    transform: scale(1.05);
+}
