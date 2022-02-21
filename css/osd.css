@@ -91,6 +91,19 @@ figure>a {
     transform: scale(-1, 1) scale(1.5);
 }
 
+hr {
+    color: transparent;
+}
+
+h4 {
+    line-height: 1.3;
+}
+
+h5, h6, p {
+    font-size: 1.5rem;
+    line-height: 1.6;
+}
+
 .h2 {
     font-style: italic;
     text-decoration: underline;
@@ -140,7 +153,11 @@ figure>a {
 
 .img-fluid.rounded {
     transition: all 0.5s ease-in-out;
+    border: 0.25rem solid transparent;
+    height: fit-content;
+    margin: auto 0;
 }
 .img-fluid.rounded:hover {
-    transform: scale(1.05);
+    transform: scale(0.95);
+    opacity: 0.75;
 }
