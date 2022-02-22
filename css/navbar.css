@@ -13,9 +13,22 @@ nav,.dropdown-menu {
     transition: transform 1s ease-in-out;
 }
 
-#navBarIcon:hover {
-    transform: rotate(180deg);
+#navBarIcon {
+    animation: iconRotate 2.5s infinite ease-in-out;
 }
+
+@keyframes iconRotate {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(-1, 1) scale(1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
 
 .navbar-toggler {
     border: 2px solid;
