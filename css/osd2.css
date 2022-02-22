@@ -63,6 +63,12 @@ h4 {
     background-attachment: fixed;
 }
 
+#pillBottleCartoon {
+    height: 3rem;
+    /* position: absolute; */
+    margin: 0 1rem;
+}
+
 #sectionTwo {
     background-image: url('../pics/osd2/pillsLeftSideOnly.jpg');
     background-position: left;
