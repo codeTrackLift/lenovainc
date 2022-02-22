@@ -46,7 +46,7 @@
 }
 
 #sectionIntro, #sectionTwo, #sectionThree {
-    animation: bgImageMovement 20s ease-in-out infinite;
+    animation: bgImageMovement 120s ease-in-out infinite;
     background-image: url('../pics/osd2/pillsLeftSideOnly.jpg');
     background-position: left top;
     background-attachment: fixed;
