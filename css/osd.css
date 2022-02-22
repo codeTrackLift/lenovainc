@@ -1,67 +1,3 @@
-*, *::before, *::after {
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-}
-
-html {
-    overflow-x: hidden;
-    width: 100%;
-    min-height: 100%;
-}
-
-nav,.dropdown-menu {
-    background-color: #00857c;
-    padding-left: 0.5rem;
-}
-
-@media (min-width:575px) {
-    .navbar {
-        height: 2rem;
-    }
-}
-
-#menuLogo {
-    transition: transform 0.5s ease-in-out;
-}
-
-#menuLogo:hover{
-    padding-left: -1rem;
-    transform: scale(1.1);
-}
-
-.effect {
-    transition: all 0.5s ease-in-out;
-    width: fit-content;
-    padding: 0.25rem;
-    color: white !important;
-    font-weight: bolder;
-}
-
-.effect:hover {
-    background-color: white;
-    color: #00857c  !important;
-    font-weight: bolder;
-}
-
-@media (max-width:575px) {
-    .effect {
-        transition: all 0s ease-in-out;
-        color: white !important;
-    }
-    .effect:hover {
-        margin-left: -0.25rem;
-        border-left: 0.25rem solid white;
-        border-right: 0.25rem solid white;
-    }
-    nav {
-        height: 0;
-    }
-    .nav-item {
-        background-color: #00857c;
-        padding-left: 0.5rem;
-    }
-}
-
 .carousel-item>img {
     position: relative;
 }
@@ -104,6 +40,10 @@ h5, h6, p {
     line-height: 1.6;
 }
 
+div>img  {
+    object-fit: cover;
+}
+
 .h2 {
     font-style: italic;
     text-decoration: underline;
@@ -127,13 +67,6 @@ h5, h6, p {
 .bgEffectMid {
     background-image: radial-gradient(farthest-side at 85% 15%, #00857c, silver, #00857c);
 }
-
-/* #footer {
-    color: white;
-    width: 100% !important;
-    margin: 0 !important;
-    padding: 0 !important;
-} */
 
 /* Animations Below */
 
