@@ -39,7 +39,7 @@ h4 {
     padding: 0.25rem;
 }
 .myImg:hover {
-    transform: scale(1.2);
+    transform: scale(1.025);
 }
 
 .btn1 {
@@ -67,4 +67,12 @@ h4 {
     background-image: url('../pics/osd2/pillsLeftSideOnly.jpg');
     background-position: left;
     background-attachment: fixed;
+}
+
+#sectionThree {
+    background-image: url('../pics/osd2/pillsLeftSideOnly.jpg');
+    box-shadow: 0 0 2rem 2rem white inset;
+    background-position: left;
+    background-attachment: fixed;
+
 }
