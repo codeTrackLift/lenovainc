@@ -40,10 +40,6 @@ h5, h6, p {
     line-height: 1.6;
 }
 
-div>img  {
-    object-fit: cover;
-}
-
 .h2 {
     font-style: italic;
     text-decoration: underline;
@@ -87,7 +83,8 @@ div>img  {
 .img-fluid.rounded {
     transition: all 0.5s ease-in-out;
     border: 0.25rem solid transparent;
-    height: fit-content;
+    /* height: fit-content; */
+    /* object-fit: cover; */
     margin: auto 0;
 }
 .img-fluid.rounded:hover {
