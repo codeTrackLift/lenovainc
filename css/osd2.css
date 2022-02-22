@@ -30,6 +30,16 @@ h4 {
     line-height: 1.6;
     font-size: 1.25rem;
     font-weight: 400;
+    text-shadow: 1px 1px black;
+}
+
+h2, h3, h4, h5, h6 {
+    text-shadow: 1px 1px black;
+}
+
+p {
+    color: white;
+    text-shadow: 1px 1px black;
 }
 
 .myImg {
@@ -40,6 +50,10 @@ h4 {
 }
 .myImg:hover {
     transform: scale(1.025);
+}
+
+.fontPermanentMarker {
+    font-family: 'Permanent Marker', cursive;
 }
 
 .btn1 {
@@ -65,7 +79,6 @@ h4 {
 
 #pillBottleCartoon {
     height: 3rem;
-    /* position: absolute; */
     margin: 0 1rem;
 }
 
