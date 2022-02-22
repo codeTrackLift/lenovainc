@@ -44,22 +44,3 @@
     97.5% { background-image: radial-gradient(farthest-side at 2.5% 97.5%, white, #00857c, #00857c); }
     100% { background-image: radial-gradient(farthest-side at 0% 100%, white, #00857c, #00857c); }
 }
-
-#sectionIntro, #sectionTwo, #sectionThree {
-    animation: bgImageMovement 180s ease-in-out infinite;
-    background-image: url('../pics/osd2/pillsLeftSideOnly.jpg');
-    background-position: left top;
-    background-attachment: fixed;
-}
-
-@keyframes bgImageMovement {
-    0% {
-        background-position: left top;
-    }
-    50% {
-        background-position: left bottom;
-    }
-    100% {
-        background-position: left top;
-    }
-}

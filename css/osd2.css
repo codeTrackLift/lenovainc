@@ -52,10 +52,6 @@ p {
     transform: scale(1.025);
 }
 
-.fontPermanentMarker {
-    font-family: 'Permanent Marker', cursive;
-}
-
 .btn1 {
     opacity: 0;
 }
@@ -66,8 +62,14 @@ p {
 
 /* Styling for Additional Pages */
 #homePage {
+    border: 2px solid #00857c;
     background-color: transparent;
     color: #00857c;
+}
+
+#homePage:hover {
+    background-color: #00857c;
+    color: white;
 }
 
 #pillBottleCartoon {
@@ -75,10 +77,25 @@ p {
     margin: 0 1rem;
 }
 
-#sectionIntro {
+.boxShadowWhite {
     box-shadow: 0 0 2rem 2rem white inset;
 }
 
-#sectionThree {
-    box-shadow: 0 0 2rem 2rem white inset;
+.bgParallax {
+    background-image: url('../pics/osd2/pillsLeftSideOnly.jpg');
+    animation: bgParallax 180s ease-in-out infinite;
+    background-position: left top;
+    background-attachment: fixed;
+}
+
+@keyframes bgParallax {
+    0% {
+        background-position: left top;
+    }
+    50% {
+        background-position: left bottom;
+    }
+    100% {
+        background-position: left top;
+    }
 }
