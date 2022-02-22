@@ -1,6 +1,6 @@
 h5 {
     color: #00857c;
-    text-shadow: 1px 1px black;
+    text-shadow: 1px 1px white;
 }
 
 .h2 {
@@ -41,9 +41,17 @@ h5 {
     max-width: 1280px;
 }
 
-.form-item>input,.form-item>textarea {
+.form-item>input {
     background-color: transparent;
     color: #00857c;
+    border-radius: 0.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.form-item>textarea {
+    background-color: transparent;
+    color: black;
+    text-shadow: 1px 1px white;
     border-radius: 0.25rem;
     margin-bottom: 0.5rem;
     border: .125rem solid black;
@@ -58,7 +66,7 @@ h5 {
     text-shadow: 1px 1px silver;
 }
 
-input,textarea {
+input {
     background-color: white !important;
     align-self: center;
     display: flex;
@@ -80,18 +88,18 @@ input,textarea {
 .bgParallax {
     background-image: url('../pics/draftingtriangle.jpg');
     animation: bgParallax 180s ease-in-out infinite;
-    background-position: cover;
+    background-position: bottom;
     background-attachment: fixed;
 }
 
 @keyframes bgParallax {
     0% {
-        background-position: cover;
+        background-position: bottom;
     }
     50% {
-        background-position: center;
+        background-position: top;
     }
     100% {
-        background-position: cover;
+        background-position: bottom;
     }
 }
