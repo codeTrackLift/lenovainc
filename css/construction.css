@@ -1,0 +1,5 @@
+#constructionAnimation {
+    background: repeating-linear-gradient(45deg, gray, gray 10px, darkkhaki 10px,darkkhaki 20px);
+    background-clip: text;
+    animation: constructionAnimation all 3s ease-in-out infinite;
+}

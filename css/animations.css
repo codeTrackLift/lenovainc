@@ -44,3 +44,15 @@
     97.5% { background-image: radial-gradient(farthest-side at 2.5% 97.5%, white, #00857c, #00857c); }
     100% { background-image: radial-gradient(farthest-side at 0% 100%, white, #00857c, #00857c); }
 }
+
+#constructionAnimation {
+    background: repeating-linear-gradient(45deg, gray, gray 10px, darkkhaki 10px,darkkhaki 20px);
+    background-clip: text;
+    animation: constructionAnimation all 3s ease-in-out infinite;
+}
+
+@keyframes constructionAnimation {
+    0% { background: repeating-linear-gradient(45deg, gray, gray 10px, darkkhaki 10px,darkkhaki 20px);}
+    50% { background: repeating-linear-gradient(45deg, darkkhaki 10px,darkkhaki 20px, gray, gray 10px);}
+    100% { background: repeating-linear-gradient(45deg, gray, gray 10px, darkkhaki 10px,darkkhaki 20px);}
+}
