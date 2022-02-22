@@ -70,28 +70,28 @@ p {
     color: #00857c;
 }
 
-#sectionIntro {
-    background-image: url('../pics/osd2/pillsLeftSideOnly.jpg');
-    box-shadow: 0 0 2rem 2rem white inset;
-    background-position: left;
-    background-attachment: fixed;
-}
-
 #pillBottleCartoon {
     height: 3rem;
     margin: 0 1rem;
 }
 
-#sectionTwo {
-    background-image: url('../pics/osd2/pillsLeftSideOnly.jpg');
+#sectionIntro {
+    box-shadow: 0 0 2rem 2rem white inset;
+    /* background-image: url('../pics/osd2/pillsLeftSideOnly.jpg');
     background-position: left;
-    background-attachment: fixed;
+    background-attachment: fixed; */
 }
 
-#sectionThree {
+/* #sectionTwo {
     background-image: url('../pics/osd2/pillsLeftSideOnly.jpg');
-    box-shadow: 0 0 2rem 2rem white inset;
     background-position: left;
     background-attachment: fixed;
+} */
+
+#sectionThree {
+    box-shadow: 0 0 2rem 2rem white inset;
+    /* background-image: url('../pics/osd2/pillsLeftSideOnly.jpg');
+    background-position: left;
+    background-attachment: fixed; */
 
 }

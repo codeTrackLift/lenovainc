@@ -1,5 +1,5 @@
 .bgEffectMid {
-    animation: bgEffectMidMovementFarthestSide 3s ease-in-out infinite alternate-reverse;
+    animation: bgEffectMidMovementFarthestSide 4s ease-in-out infinite alternate-reverse;
 }
 @keyframes bgEffectMidMovementFarthestSide {
     0% { background-image: radial-gradient(farthest-side at 100% 0%, white, #00857c, #00857c); }
@@ -45,14 +45,21 @@
     100% { background-image: radial-gradient(farthest-side at 0% 100%, white, #00857c, #00857c); }
 }
 
-#constructionAnimation {
-    background: repeating-linear-gradient(45deg, gray, gray 10px, darkkhaki 10px,darkkhaki 20px);
-    background-clip: text;
-    animation: constructionAnimation all 3s ease-in-out infinite;
+#sectionIntro, #sectionTwo, #sectionThree {
+    animation: bgImageMovement 20s ease-in-out infinite;
+    background-image: url('../pics/osd2/pillsLeftSideOnly.jpg');
+    background-position: left top;
+    background-attachment: fixed;
 }
 
-@keyframes constructionAnimation {
-    0% { background: repeating-linear-gradient(45deg, gray, gray 10px, darkkhaki 10px,darkkhaki 20px);}
-    50% { background: repeating-linear-gradient(45deg, darkkhaki 10px,darkkhaki 20px, gray, gray 10px);}
-    100% { background: repeating-linear-gradient(45deg, gray, gray 10px, darkkhaki 10px,darkkhaki 20px);}
+@keyframes bgImageMovement {
+    0% {
+        background-position: left top;
+    }
+    50% {
+        background-position: left bottom;
+    }
+    100% {
+        background-position: left top;
+    }
 }
