@@ -45,6 +45,7 @@ h5 {
     background-color: transparent;
     color: #00857c;
     border-radius: 0.25rem;
+    border: .125rem solid black;
     margin-bottom: 0.5rem;
 }
 
