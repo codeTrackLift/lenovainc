@@ -14,8 +14,6 @@
 .btn:hover {
     background-color: transparent;
     color: #00857c;
-    transform: scale(1.05);
-    font-weight: bolder;
 }
 
 .card {
@@ -36,11 +34,6 @@
     margin: 3rem auto 6rem auto;
     width: 80vw;
     max-width: 1280px;
-}
-
-#emailButton:hover {
-    transform: scale(1.025);
-    font-size: 1.125rem;
 }
 
 .form-item>input,.form-item>textarea {

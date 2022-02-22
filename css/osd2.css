@@ -22,8 +22,6 @@ h4 {
 .btn:hover {
     background-color: transparent;
     color: #00857c;
-    transform: scale(1.05);
-    font-weight: bolder;
 }
 
 .myP {
@@ -45,8 +43,9 @@ p {
 .myImg {
     border-radius: 1rem !important;
     transition: all 0.5s ease-in-out;
-    margin: auto 0;
+    margin: auto auto;
     padding: 0.25rem;
+    max-width: 50vw;
 }
 .myImg:hover {
     transform: scale(1.025);

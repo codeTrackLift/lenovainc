@@ -9,8 +9,17 @@ nav,.dropdown-menu {
     }
 }
 
-#menuLogo {
-    transition: transform 0.5s ease-in-out;
+#menuLogo,#navBarIcon {
+    transition: transform 1s ease-in-out;
+}
+
+#navBarIcon:hover {
+    transform: rotate(180deg);
+}
+
+.navbar-toggler {
+    border: 2px solid;
+    border-radius: 50%;
 }
 
 #menuLogo:hover{
