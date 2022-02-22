@@ -1,4 +1,4 @@
 # lenovainc
  LeNova, Inc.
 
-Thanks to Pexels and Pixabay for images!
+Thanks to Pexels, Pixabay, and Unsplash for copyright free images!

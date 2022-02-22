@@ -1,0 +1,70 @@
+hr {
+    color: transparent;
+}
+
+h4 {
+    line-height: 1.3;
+}
+
+.h2 {
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.btn {
+    border: 0.125rem solid #00857c;
+    background-color: #00857c;
+    color: white;
+    transition: all .5s ease-in-out;
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: #00857c;
+    transform: scale(1.05);
+    font-weight: bolder;
+}
+
+.myP {
+    line-height: 1.6;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.myImg {
+    border-radius: 1rem !important;
+    transition: all 0.5s ease-in-out;
+    margin: auto 0;
+    padding: 0.25rem;
+}
+.myImg:hover {
+    transform: scale(1.2);
+}
+
+.btn1 {
+    opacity: 0;
+}
+
+.btn1.show {
+    opacity: 1;
+}
+
+/* Styling for Additional Pages */
+#homePage {
+    background-color: transparent;
+    color: #00857c;
+}
+
+#sectionIntro {
+    background-image: url('../pics/osd2/pillsLeftSideOnly.jpg');
+    box-shadow: 0 0 2rem 2rem white inset;
+    background-position: left;
+    background-attachment: fixed;
+}
+
+#sectionTwo {
+    background-image: url('../pics/osd2/pillsLeftSideOnly.jpg');
+    background-position: left;
+    background-attachment: fixed;
+}
