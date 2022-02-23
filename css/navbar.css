@@ -14,7 +14,11 @@ nav,.dropdown-menu {
 }
 
 #navBarIcon {
-    animation: iconRotate 2.5s infinite ease-in-out;
+    animation: iconRotate 2s infinite ease-in-out;
+}
+
+.navbar-toggler:hover {
+    animation: iconRotate 2s infinite ease-in-out;
 }
 
 @keyframes iconRotate {
@@ -29,10 +33,13 @@ nav,.dropdown-menu {
     }
 }
 
-
 .navbar-toggler {
-    border: 2px solid;
+    border-left: 2px solid silver !important;
+    border-right: 2px solid cyan !important;
+    border-top: 2px solid transparent !important;
+    border-bottom: 2px solid transparent !important;
     border-radius: 50%;
+    animation: iconRotate 8s infinite ease-in-out;
 }
 
 #menuLogo:hover{
