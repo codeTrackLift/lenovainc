@@ -49,6 +49,10 @@ h5 {
     margin-bottom: 0.5rem;
 }
 
+.form-item>input::placeholder,.form-item>textarea::placeholder  {
+    color: black;
+}
+
 .form-item>textarea {
     background-color: transparent;
     color: black;
