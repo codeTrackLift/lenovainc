@@ -69,8 +69,14 @@ h4 {
 
 /* Styling for Additional Pages */
 #homePage {
+    border: 2px solid #00857c;
     background-color: transparent;
     color: #00857c;
+}
+
+#homePage:hover {
+    background-color: #00857c;
+    color: white;
 }
 
 .img-fluid.rounded {
