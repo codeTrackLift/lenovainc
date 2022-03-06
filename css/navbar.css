@@ -1,15 +1,30 @@
 nav,.dropdown-menu {
     background-color: #00857c;
     padding-left: 0.5rem;
+    border: none;
 }
 
 @media (min-width:575px) {
     .navbar {
-        height: 2rem;
+        height: 2.675rem;
     }
 }
 
-#menuLogo,#navBarIcon {
+@media (max-width:575px) {
+    .navbar {
+        height: 1rem;
+        /* max-height: fit-content; */
+    }
+}
+
+
+
+.navbar-collapse {
+    background-color: #00857c;
+    padding-left: 1rem;
+}
+
+#navBarIcon {
     transition: transform 1s ease-in-out;
 }
 
@@ -42,31 +57,28 @@ nav,.dropdown-menu {
     animation: iconRotate 8s infinite ease-in-out;
 }
 
-#menuLogo:hover{
-    padding-left: -1rem;
-    transform: scale(1.1);
-}
-
-.effect {
+.nav-link {
+    padding: 0;
     transition: all 0.5s ease-in-out;
+    padding: 0.125rem;
     width: fit-content;
-    padding: 0.25rem;
-    color: white !important;
     font-weight: bolder;
+    border-radius: 10px;
 }
 
-.effect:hover {
+.nav-link:hover,
+.nav-link:focus {
     background-color: white;
     color: #00857c  !important;
     font-weight: bolder;
 }
 
 @media (max-width:575px) {
-    .effect {
+    .nav-link {
         transition: all 0s ease-in-out;
-        color: white !important;
     }
-    .effect:hover {
+    .nav-link:hover,
+    .nav-link:focus {
         margin-left: -0.25rem;
         border-left: 0.25rem solid white;
         border-right: 0.25rem solid white;
@@ -78,4 +90,30 @@ nav,.dropdown-menu {
         background-color: #00857c;
         padding-left: 0.5rem;
     }
+}
+
+
+/* navbar-brand and menuLogo hover effects keep at bottom */
+.navbar-brand {
+    transition: all 0.25s ease-in-out;
+    background-color: #00857c;
+    padding: 0.125rem 0.25rem;
+}
+
+.navbar-brand:hover,
+.navbar-brand:focus {
+    transform: scale(1);
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 0.125rem 0.25rem;
+}
+
+#menuLogo {
+    transition: transform 0.25s ease-in-out;
+}
+
+#menuLogo:hover{
+    transform: scale(1);
+    background-color: #00857c !important;
+    border-radius: 10px;
 }
