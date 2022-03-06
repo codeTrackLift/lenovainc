@@ -16,6 +16,13 @@ nav,.dropdown-menu {
     .navbar {
         height: 1rem;
     }
+    .nav-item {
+        margin: 0.5rem 0;
+    }
+}
+
+.dropdown-item {
+    margin: 0.5rem 1rem 0.5rem 0;
 }
 
 .navbar-collapse {
