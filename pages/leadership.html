@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en" class='container-fluid'>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name='description' content='LeNova, Inc. Professional Engineering Services'>
+
+    <!-- Bootstrap Link -->
+    <link rel="stylesheet" href="../libraries/bootstrap.min.css">
+
+    <!-- Font CSS Links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+
+    <!-- Scroll Magic JS -->
+    <script src="../libraries/ScrollMagic.min.js"></script>
+
+    <!-- My CSS & JS -->
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/animations.css">
+    <link rel="stylesheet" href="../css/leadership.css">
+    <script src='../js/scrollMagic.js' defer></script>
+    <link rel="shortcut icon" type='image/x-icon' href="../favicon.ico">
+
+    <title>LeNova, Inc.</title>
+</head>
+
+<body class='container-fluid'>
+
+    <nav class="navbar navbar-expand-sm navbar-p navbar-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand d-none d-sm-block" href="../pages/welcome.html"><img
+                    src="../pics/lenovalogosmall.gif" style='height:1.5rem;' alt="LeNova Inc Logo, small."></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <!-- <span class="navbar-toggler-icon"></span> -->
+                <img id='navBarIcon' src="../favicon.ico" alt="LeNova, Inc. icon." style="height:2rem;">
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll w-100 justify-content-evenly">
+                    <li class="nav-item">
+                        <a class="nav-link d-block d-sm-none bg-transparent" aria-current="page"
+                            href="../pages/welcome.html"><img id='menuLogo' src="../pics/lenovalogosmall.gif"
+                                style='height:1.5rem;' alt="LeNova, Inc. Logo, small."></a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../pages/leadership.html">About</a>
+                    </li> -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            About
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                            <li><a class="dropdown-item nav-link" href="../pages/osd.html">Mission</a></li>
+                            <li><a class="nav-link" aria-current="page" href="../pages/leadership.html">Leadership</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/welcome.html#services">Expertise</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/newpage.html">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Projects
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                            <li><a class="dropdown-item nav-link" href="../pages/osd.html">Oral Solid Dosage</a></li>
+                            <li><a class="dropdown-item nav-link" href="../pages/osd2.html">Oral Solid Dosage v2</a>
+                            </li>
+                            <li><a class="dropdown-item nav-link" href="../pages/newpage.html">Action 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/welcome.html#contact">Contact</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link disabled">Link</a>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../pics/carousel/rockets.jpg" class="d-block w-100"
+                    alt="Background carousel image of a manufacturing area.">
+            </div>
+            <div class="carousel-item">
+                <img src="../pics/carousel/orangevest.jpg" class="d-block w-100"
+                    alt="Background carousel image of a construction area.">
+            </div>
+            <div class="carousel-item">
+                <img src="../pics/carousel/industrial.jpg" class="d-block w-100"
+                    alt="Background carousel image of an industrial area.">
+            </div>
+        </div>
+    </div>
+
+    <div id='logo' class='container-fluid text-center'>
+        <img src="../pics/lenovalogo.gif" alt="LeNova, Inc. logo." class='img-fluid sceneMainLogo'>
+    </div>
+
+    <div id='about' class='container-fluid py-3 mx-auto row'>
+        <figure class='figure-caption col-11 my-auto'>
+            <blockquote class="blockquote text-center">
+                <h2>LeNova, Inc is known for it's <span class='h2'>EXCELLENCE</span> in providing robust engineering and
+                    technology solutions.</h2>
+            </blockquote>
+            <figcaption class="blockquote-footer text-end">
+                <cite title="Source Title">Established in 1997</cite>
+            </figcaption>
+            <a href="../pages/welcome.html#contact" class='btn btn1'>Contact Us!</a>
+        </figure>
+        <figure class='figure col-1 my-auto'><img id='aboutImg' src="../pics/artificialintelligence.jpg"
+                alt="Artificial intelligence image in a rotating coin shape." class=''></figure>
+    </div>
+
+    <!-- <div class='container-fluid  row my-3 mx-auto'>
+            <div style='padding-left:1rem;'>
+                <a href="../index.html" id='homePage' class='btn btn2'>&lt; Back to Homepage</a>
+            </div>
+        </div> -->
+    <hr class='p-1' style="color:transparent;">
+
+    <div class='container-fluid mx-auto row '>
+        <figure class='figure-caption col text-center'>
+            <h1 class="text-black"><u>Jack C. Chu, PE</u></h1>
+        </figure>
+    </div>
+
+    <div class='bgParallax boxShadowWhite container-fluid mx-auto row'>
+        <div class='col-md-6 text-center my-auto'>
+            <img src="../pics/about/jcc_merck2016.jpg" id='greetingPic' class='img-fluid boxShadowBlack'
+                style='min-width:15rem;width:25vw;max-width:25rem;' alt="Jack C. Chu, Professional Engineer"><br>
+            <figure class="py-3">
+                <p class="textShadowBlack text-white px-5 fs-6">Over 30 years of business experiences in
+                    Biopharmaceutical and Life Sciences Industries.</p>
+            </figure>
+        </div>
+        <div class='col-md-6 my-auto px-5'>
+            <h2 class='text-center text-white textShadowBlack'>Licensed Professional Engineer</h2>
+            <p class="fs-5 text-goldenrod textShadowBlack">Designed and implemented significant projects worldwide since
+                1985.</p>
+            <p class="fs-5 text-goldenrod textShadowBlack">Successfully led professional teams on a Global scale.</p>
+            <p class="fs-5 text-goldenrod textShadowBlack">Investigated technology and complex legal cases to
+                successfully deliver robust engineering solutions.</p>
+        </div>
+    </div>
+
+    <div class='container-fluid mx-auto m-3 p-3 gap-3 bgEffectMid' style='padding-bottom:2rem!important;'>
+        <div class='row mx-auto mt-3'>
+            <h2 class="my-3 fs-1 textShadowWhite text-center">ISPE Global Chair for Oral Solid Dosage COE Team</h2>
+            <div class='col-sm-6 my-auto'>
+                <h2 class="text-center text-goldenrod textShadowWhite fs-2">Areas of Expertise:</h2>
+                <ul>
+                    <li class="fs-5 text-white textShadowBlack">Process Development</li>
+                    <li class="fs-5 text-white textShadowBlack">Quality Assurance</li>
+                    <li class="fs-5 text-white textShadowBlack">Facility & Equipment System Design and Implementation
+                    </li>
+                    <li class="fs-5 text-white textShadowBlack">Including Manufacturing and Technical Operations</li>
+                </ul>
+            </div>
+            <div class='col-sm-5 my-auto'>
+                <img src="../pics/about/conferenceBlurrySpeaker.jpg" class='img-fluid boxShadowBlack rounded'
+                    alt="Cleanroom door for an Oral Solid Dosage facility.">
+            </div>
+        </div>
+        <div class='row  mx-auto m-3'>
+            <div class='col-sm-6 my-auto'>
+                <img src="../pics/about/conferenceLargeVenue.jpg" class='my-2 img-fluid rounded boxShadowBlack '
+                    alt="Close up image of pencil and drawing.">
+                <img src="../pics/about/pencilDrawingCloseup.jpg" class='my-2 img-fluid rounded boxShadowBlack '
+                    alt="Close up image of pencil and drawing.">
+            </div>
+            <div class='col-sm-6 m-auto'>
+                <h1 class="text-center m-4">Successful Solutions</h1>
+                <h1 class="text-center m-4">Industry Diversity</h1>
+                <h2 class="text-center text-goldenrod textShadowWhite">Industry Experience:</h2>
+                <ul class="mx-auto" style="width:fit-content;">
+                    <li class="fs-4 text-white textShadowBlack">Semi-conductor</li>
+                    <li class="fs-4 text-white textShadowBlack">Biopharmaceutical</li>
+                    <li class="fs-4 text-white textShadowBlack">Healthcare</li>
+                    <li class="fs-4 text-white textShadowBlack">Food and Cosmetic</li>
+                    <li class="fs-4 text-white textShadowBlack">Commercial Communities</li>
+                    <li class="fs-4 text-white textShadowBlack">Academia Societies</li>
+                </ul>
+
+            </div>
+        </div>
+        <figure class='bgParallax figure-caption text-center row mx-auto'>
+            <h1 class='my-5 py-5 text-black' style='color:white'>
+                <img src="../pics/about/osdPillCartoon.png" class="imgRotate1 img-fluid"
+                    style="width: 3rem;border-radius: 50%" alt="Pill Illustration">
+                Global Oral Solid Dosage Leader
+                <img src="../pics/about/osdPillCartoon.png" class="imgRotate2 mg-fluid"
+                    style="width: 3rem;border-radius: 50%" alt="Pill Illustration">
+            </h1>
+        </figure>
+        <div class='container-fluid mx-auto  row p-3 gap-3 mb-3'>
+            <div class='col-md-6 my-auto h4'>
+                <h2 class='text-center text-goldenrod textShadowWhite fs-1'>Jack promotes:</h2>
+                <ul class="mx-auto" style="width:fit-content;">
+                    <li class="fs-3 text-white textShadowBlack">PAT Application</li>
+                    <li class="fs-3 text-white textShadowBlack">Single-use Technology Utilization</li>
+                    <li class="fs-3 text-white textShadowBlack">Continuous Manufacturing Process</li>
+                </ul>
+            </div>
+            <div class='col-md-5 text-center my-auto h5'>
+                <img src="../pics/about/engineeringBackground.jpg" class='img-fluid rounded boxShadowBlack '
+                    alt="Cleanroom manufacturing image.">
+            </div>
+        </div>
+    </div>
+
+    <div class='container-fluid mx-auto row p-3 gap-3'>
+        <div class='col-sm-5 my-auto'>
+            <img src="../pics/about/lectureCartoon.jpg" style='border-radius:50% !important;'
+                class='img-fluid rounded boxShadowBlack' alt="Illustration of a lecture.">
+            <p class="py-3 text-center">Jack advises students on the internship programs to connect and work with
+                industry experts.</p>
+        </div>
+        <div class='col-sm-6 my-auto'>
+            <h2 class="text-center text-goldenrod textShadowBlack fs-1">Passionate, Patient and Professionalism.</h2>
+            <p class="fs-5">Mr. Chu has a strong interest in teaching and mentoring young engineers.</p>
+            <p class="fs-5">This develops real-world analysis and solving problems skills.</p>
+            <p class="fs-5">He has been lecturing at Steven Institute of Technology and Widener University since 2007.
+            </p>
+            <p class="fs-5">Jack is the Vice-Chair of Industrial Advisory Group (IAG) to Academia Society</p>
+        </div>
+    </div>
+
+    <hr style='color:transparent'>
+
+    <div class='container-fluid  mt-5' style='margin-left:1rem;margin-bottom:2rem;'>
+        <a href="../pages/welcome.html" id='homePage' class='btn'>&lt; Back to Homepage</a>
+    </div>
+
+    <footer class='container-fluid p-3'>
+        <div id='footer' class='text-center'>
+            <p>Copyright &#169;
+                <script>
+                    document.write(new Date().getFullYear())
+                </script>
+                <img id='footerIcon' class='d-none d-sm-inline' src="../favicon.ico" alt="LeNova, Inc. Icon.">
+                <span>LeNova, Inc.</span></p>
+        </div>
+    </footer>
+
+    <!-- JS: Bootstrap -->
+    <script src="../libraries/bootstrap.min.js"></script>
+</body>
+
+</html>

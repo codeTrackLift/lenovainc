@@ -30,10 +30,6 @@ li {
     border-radius: 50%;
 }
 
-.myArticles {
-    width: 100vw;
-}
-
 .bgParallax {
     /* width: 100%; */
     background-image: linear-gradient(rgba(70,70,70, 0.7), rgba(70, 70, 70, 0.7)),url('../pics/about/mechBackground.jpg');
