@@ -6,9 +6,9 @@ li {
     font-weight: bolder;
 }
 
-.bgEffectMid {
+/* .bgEffectMid {
     background-image: radial-gradient(farthest-side at 85% 15%, #00857c, silver, #00857c);
-}
+} */
 
 .btn1 {
     opacity: 0;
