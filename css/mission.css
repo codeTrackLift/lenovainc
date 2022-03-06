@@ -1,0 +1,99 @@
+h5 {
+    color: #00857c;
+    text-shadow: 1px 1px white;
+}
+
+.h2 {
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.card {
+    padding: 1rem;
+    border-radius: 0.25rem;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card-body>a {
+    background-color: #00857c;
+}
+
+.card-img-top {
+    border-radius: .25rem;
+}
+
+#contact {
+    margin: 3rem auto 6rem auto;
+    width: 80vw;
+    max-width: 1280px;
+}
+
+.form-item>input {
+    background-color: transparent;
+    color: #00857c;
+    border-radius: 0.25rem;
+    border: .125rem solid black;
+    margin-bottom: 0.5rem;
+}
+
+.form-item>input::placeholder,.form-item>textarea::placeholder  {
+    color: black;
+}
+
+.form-item>textarea {
+    background-color: transparent;
+    color: black;
+    text-shadow: 1px 1px white;
+    border-radius: 0.25rem;
+    margin-bottom: 0.5rem;
+    border: .125rem solid black;
+    resize: none;
+}
+
+.form-item>label {
+    font-weight: bolder;
+    align-self: center;
+    display: flex;
+    justify-content: start;
+    text-shadow: 1px 1px silver;
+}
+
+input {
+    background-color: white !important;
+    align-self: center;
+    display: flex;
+    justify-content: start;
+}
+
+.btn1,.btn2,.btn3,.btn4,.btn5,.btn6,.btn7,.btn8 {
+    opacity: 0;
+}
+
+.btn1.show,.btn2.show,.btn3.show,.btn4.show,.btn5.show,.btn6.show,.btn7.show,.btn8.show {
+    opacity: 1;
+}
+
+.boxShadowWhite {
+    box-shadow: 0 0 1rem 1rem white inset;
+}
+
+.bgParallax {
+    background-image: url('../pics/draftingtriangle.jpg');
+    animation: bgParallax 180s ease-in-out infinite;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+
+@keyframes bgParallax {
+    0% {
+        background-position: bottom;
+    }
+    50% {
+        background-position: top;
+    }
+    100% {
+        background-position: bottom;
+    }
+}
