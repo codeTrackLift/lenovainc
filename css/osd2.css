@@ -12,18 +12,6 @@ h4 {
     font-weight: bolder;
 }
 
-.btn {
-    border: 0.125rem solid #00857c;
-    background-color: #00857c;
-    color: white;
-    transition: all .5s ease-in-out;
-}
-
-.btn:hover {
-    background-color: transparent;
-    color: #00857c;
-}
-
 .myP {
     line-height: 1.6;
     font-size: 1.25rem;
@@ -45,7 +33,7 @@ p {
     border-radius: 1rem !important;
     transition: all 0.5s ease-in-out;
     margin: auto auto;
-    padding: 0.5rem;
+    /* padding: 0.5rem; */
     max-width: 80vw;
 }
 

@@ -41,18 +41,6 @@ h4 {
     font-weight: bolder;
 }
 
-.btn {
-    border: 0.125rem solid #00857c;
-    background-color: #00857c;
-    color: white;
-    transition: all .5s ease-in-out;
-}
-
-.btn:hover {
-    background-color: transparent;
-    color: #00857c;
-}
-
 .bgEffectMid {
     background-image: radial-gradient(farthest-side at 85% 15%, #00857c, silver, #00857c);
 }

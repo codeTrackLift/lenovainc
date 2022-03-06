@@ -9,22 +9,11 @@ h5 {
     font-weight: bolder;
 }
 
-.btn {
-    border: 0.125rem solid #00857c;
-    background-color: #00857c;
-    color: white;
-    transition: all .5s ease-in-out;
-}
-
-.btn:hover {
-    background-color: transparent;
-    color: #00857c;
-}
-
 .card {
     padding: 1rem;
     border-radius: 0.25rem;
     border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .card-body>a {

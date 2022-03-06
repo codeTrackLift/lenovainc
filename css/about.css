@@ -8,7 +8,6 @@
     background-image: radial-gradient(farthest-side at 85% 15%, #00857c, silver, #00857c);
 }
 
-
 .btn1 {
     opacity: 0;
 }
@@ -29,9 +28,6 @@
     color: white;
 }
 
-.img-fluid.rounded {
-    transition: all 0.5s ease-in-out;
-}
-.img-fluid.rounded:hover {
-    transform: scale(1.0125);
+#greetingPic {
+    border-radius: 50%;
 }

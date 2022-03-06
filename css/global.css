@@ -33,6 +33,7 @@ html,footer {
 
 .carousel-item>img {
     position: relative;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 #logo {
@@ -58,15 +59,30 @@ figure>a {
     opacity: 0.3;
     transition: all 0.5s ease-in-out;
     margin-left: -35vmin;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 #aboutImg:hover,#aboutImg.show {
     transform: scale(-1, 1) scale(1.5);
 }
 
+.btn {
+    border: 0.125rem solid #00857c;
+    background-color: #00857c;
+    color: white;
+    transition: all .5s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.btn:hover {
+    background-color: whitesmoke;
+    color: #00857c;
+}
+
 footer {
     color: white;
     background-color: #00857c;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 #footerIcon {

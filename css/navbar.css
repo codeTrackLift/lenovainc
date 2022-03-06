@@ -2,6 +2,8 @@ nav,.dropdown-menu {
     background-color: #00857c;
     padding-left: 0.5rem;
     border: none;
+    border-bottom: 1px solid #00857c;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 @media (min-width:575px) {
@@ -13,11 +15,8 @@ nav,.dropdown-menu {
 @media (max-width:575px) {
     .navbar {
         height: 1rem;
-        /* max-height: fit-content; */
     }
 }
-
-
 
 .navbar-collapse {
     background-color: #00857c;
@@ -55,6 +54,7 @@ nav,.dropdown-menu {
     border-bottom: 2px solid transparent !important;
     border-radius: 50%;
     animation: iconRotate 8s infinite ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .nav-link {
@@ -63,7 +63,7 @@ nav,.dropdown-menu {
     padding: 0.125rem;
     width: fit-content;
     font-weight: bolder;
-    border-radius: 10px;
+    border-radius: 4px;
 }
 
 .nav-link:hover,
@@ -98,13 +98,14 @@ nav,.dropdown-menu {
     transition: all 0.25s ease-in-out;
     background-color: #00857c;
     padding: 0.125rem 0.25rem;
+    border: 2px solid #00857c;
 }
 
 .navbar-brand:hover,
 .navbar-brand:focus {
-    transform: scale(1);
-    border: 1px solid white;
-    border-radius: 10px;
+    transform: scale(0.9);
+    border: 2px solid white;
+    border-radius: 4px;
     padding: 0.125rem 0.25rem;
 }
 
@@ -113,7 +114,7 @@ nav,.dropdown-menu {
 }
 
 #menuLogo:hover{
-    transform: scale(1);
+    transform: scale(0.9);
     background-color: #00857c !important;
     border-radius: 10px;
 }
