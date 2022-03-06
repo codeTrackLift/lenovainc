@@ -57,7 +57,7 @@ h4 {
 
 /* Styling for Additional Pages */
 #homePage {
-    border: 2px solid #00857c;
+    border: 1px solid #00857c;
     background-color: transparent;
     color: #00857c;
 }
@@ -70,8 +70,6 @@ h4 {
 .img-fluid.rounded {
     transition: all 0.5s ease-in-out;
     border: 0.25rem solid transparent;
-    /* height: fit-content; */
-    /* object-fit: cover; */
     margin: auto 0;
 }
 .img-fluid.rounded:hover {

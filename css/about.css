@@ -1,6 +1,8 @@
+li {
+    list-style-type: none;
+}
+
 .h2 {
-    font-style: italic;
-    text-decoration: underline;
     font-weight: bolder;
 }
 
@@ -18,7 +20,7 @@
 
 /* Styling for Additional Pages */
 #homePage {
-    border: 2px solid #00857c;
+    border: 1px solid #00857c;
     background-color: transparent;
     color: #00857c;
 }
@@ -30,4 +32,36 @@
 
 #greetingPic {
     border-radius: 50%;
+}
+
+.myArticles {
+    width: 100vw;
+}
+
+.bgParallax {
+    width: 100%;
+    background-image: linear-gradient(rgba(70,70,70, 0.7), rgba(70, 70, 70, 0.7)),url('../pics/about/mechBackground.jpg');
+    animation: bgParallax 180s ease-in-out infinite;
+    background-position: left top;
+    background-attachment: fixed;
+}
+
+@keyframes bgParallax {
+    0% {
+        background-position: left top;
+    }
+    50% {
+        background-position: left bottom;
+    }
+    100% {
+        background-position: left top;
+    }
+}
+
+.imgRotate1 {
+    animation: iconRotate 4s infinite ease-in-out;
+}
+
+.imgRotate2 {
+    animation: iconRotate 4s infinite ease-in-out 1s;
 }

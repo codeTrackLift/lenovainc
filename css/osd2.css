@@ -51,7 +51,7 @@ p {
 
 /* Styling for Additional Pages */
 #homePage {
-    border: 2px solid #00857c;
+    border: 1px solid #00857c;
     background-color: transparent;
     color: #00857c;
 }
@@ -64,10 +64,6 @@ p {
 #pillBottleCartoon {
     height: 3rem;
     margin: 0 1rem;
-}
-
-.boxShadowWhite {
-    box-shadow: 0 0 2rem 2rem white inset;
 }
 
 .bgParallax {

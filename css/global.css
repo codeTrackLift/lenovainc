@@ -31,9 +31,12 @@ html,footer {
     max-width: 1280px;
 }
 
+.carousel {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
 .carousel-item>img {
     position: relative;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 #logo {
@@ -59,7 +62,7 @@ figure>a {
     opacity: 0.3;
     transition: all 0.5s ease-in-out;
     margin-left: -35vmin;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 #aboutImg:hover,#aboutImg.show {
@@ -71,7 +74,7 @@ figure>a {
     background-color: #00857c;
     color: white;
     transition: all .5s ease-in-out;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .btn:hover {
@@ -79,10 +82,38 @@ figure>a {
     color: #00857c;
 }
 
+.text-silver {
+    color: silver;
+}
+
+.boxShadowWhite {
+    box-shadow: 0 0 2rem 2rem white inset;
+}
+
+.boxShadowBlack {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.textShadowBlack {
+    text-shadow: 1px 1px black;
+}
+
+.textShadowWhite {
+    text-shadow: 1px 1px white;
+}
+
+.myArticles {
+    margin: 1rem auto;
+    padding: 1rem;
+    width: 90vw;
+    max-width: 960px;
+    line-height: 1.6;
+}
+
 footer {
     color: white;
     background-color: #00857c;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 #footerIcon {
