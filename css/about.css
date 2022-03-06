@@ -6,10 +6,6 @@ li {
     font-weight: bolder;
 }
 
-/* .bgEffectMid {
-    background-image: radial-gradient(farthest-side at 85% 15%, #00857c, silver, #00857c);
-} */
-
 .btn1 {
     opacity: 0;
 }
@@ -39,7 +35,7 @@ li {
 }
 
 .bgParallax {
-    width: 100%;
+    /* width: 100%; */
     background-image: linear-gradient(rgba(70,70,70, 0.7), rgba(70, 70, 70, 0.7)),url('../pics/about/mechBackground.jpg');
     animation: bgParallax 180s ease-in-out infinite;
     background-position: left top;
