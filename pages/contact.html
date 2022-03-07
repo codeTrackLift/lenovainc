@@ -22,7 +22,7 @@
         <link rel="stylesheet" href="../css/global.css">
         <link rel="stylesheet" href="../css/navbar.css">
         <link rel="stylesheet" href="../css/animations.css">
-        <link rel="stylesheet" href="../css/welcome.css">
+        <link rel="stylesheet" href="../css/contact.css">
         <script src='../js/scrollMagic.js' defer></script>
         <link rel="shortcut icon" type='image/x-icon' href="../favicon.ico">
 
@@ -73,7 +73,7 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../pages/contact.html">Contact</a>
+                        <a class="nav-link active" href="../pages/contact.html">Contact</a>
                     </li>
                     <!-- <li class="nav-item">
                         <a class="nav-link disabled">Link</a>
@@ -109,97 +109,95 @@
                 <figcaption class="blockquote-footer text-end">
                     <cite title="Source Title">Established in 1991</cite>
                 </figcaption>
-                <a href="../pages/contact.html" class='btn btn1'>Contact Us!</a>
+                <!-- <a href="#contact" class='btn btn1'>Contact Us!</a> -->
             </figure>
             <figure class='figure col-1 my-auto'><img id='aboutImg' src="../pics/artificialintelligence.jpg" alt="Artificial intelligence image in a rotating coin shape." class=''></figure>
         </div>
 
-        <div id='services' class='container-fluid mx-auto row justify-content-evenly py-3 my-3 gap-3 bgEffectMid' style='padding-bottom:2rem!important;'>
-            <div class="card col-sm-3" style="width: 18rem;">
-                <img src="../pics/about/cartoonMobileHandshake.png" class="card-img-top" alt="Cartoon of a handshake over mobile phones.">
-                <div class="card-body">
-                    <h5 class="card-title">About LeNova</h5>
-                    <p class="card-text">It's nice to meet you!</p>
-                    <p class="card-text">LeNova, Inc. has been providing robust engineering solutions for over 30 years. Learn more about who LeNova is and the secret behind our success.</p>
-                    <a href="https://www.iso.org/" target="'_blank" class="btn btn3">Learn More</a>
-                </div>
+        <div class='container-fluid mx-auto row py-3 gap-3 bgEffectMid'>
+            <div class="text-center">
+                <h1>Contact Us!</h1>
+                <h2 class="text-goldenrod textShadowWhite">We have offices in Pennsylvania and Florida</h2>
             </div>
-            <div class="card col-sm-3" style="width: 18rem;">
-                <img src="../pics/about/theProfessional.jpg" class="card-img-top" alt="A business professional.">
-                <div class="card-body">
-                    <h5 class="card-title">Profesional Engineers</h5>
-                    <p class="card-text">We are a team of professionals with global leadership experience.</p>
-                    <p class="card-text">'Right First Time' is our motto.  Our customer commitments and excellence in delivery is unmatched.</p>
-                    <a href="../pages/leadership.html" class="btn btn2">Learn More</a>
+            <div id='contactLogos' class="row mx-auto" style="width:fit-content;">
+                <div class="col-sm-6 my-auto row">
+                    <div class="d-flex gap-3">
+                        <a href="https://goo.gl/maps/pLyhFApH4N1fNCca8" target="_blank"><img class='img-fluid contactLogo' src="../pics/contact/locationIcon.gif" alt="Location Icon"></a>
+                        <p class="my-auto text-white textShadowBlack">Philadelphia, PA</p>
+                    </div>
+                    <div class="d-flex gap-3 mt-2">
+                        <img class='img-fluid contactLogo' src="../pics/contact/phoneIcon.gif" alt="Phone icon.">
+                        <p class="my-auto text-white textShadowBlack">(555)555-5555</p>
+                    </div>
+                    <div class="d-flex gap-3">
+                        <a href="" target="_blank"><img class='img-fluid contactLogo' src="../pics/contact/emailIcon.gif" alt="Email icon."></a>
+                        <p class="my-auto text-white textShadowBlack">email@domain.com</p>
+                    </div>
+                    <div class="d-flex gap-3">
+                        <a href="" target="_blank"><img class='img-fluid contactLogoSquare' src="../pics/contact/linkedin_white.png" style='margin-left:0.125rem;margin-right:-0.125rem' alt="LinkedIn icon."></a>
+                        <p class="my-auto text-white textShadowBlack">LinkedIn Profile</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 my-auto">
+                    <div class="d-flex gap-3">
+                        <a href="https://goo.gl/maps/hngMQWJgqdiVVtFz5" target="_blank"><img class='img-fluid contactLogo' src="../pics/contact/locationIcon.gif" alt="Location Icon"></a>
+                        <p class="my-auto text-white textShadowBlack">West Palm Beach, FL</p>
+                    </div>
+                    <div class="d-flex gap-3 mt-2">
+                        <img class='img-fluid contactLogo' src="../pics/contact/phoneIcon.gif" alt="Phone icon.">
+                        <p class="my-auto text-white textShadowBlack">(555)555-5555</p>
+                    </div>
+                    <div class="d-flex gap-3">
+                        <a href="" target="_blank"><img class='img-fluid contactLogo' src="../pics/contact/emailIcon.gif" alt="Email icon."></a>
+                        <p class="my-auto text-white textShadowBlack">email@domain.com</p>
+                    </div>
+                    <div class="d-flex gap-3">
+                        <a href="" target="_blank"><img class='img-fluid contactLogoSquare' src="../pics/contact/linkedin_white.png" style='margin-left:0.125rem;margin-right:-0.125rem' alt="LinkedIn Icon"></a>
+                        <p class="my-auto text-white textShadowBlack">LinkedIn Profile</p>
+                    </div>
                 </div>
             </div>
 
-            <div class="card col-sm-3" style="width: 18rem;">
-                <img src="../pics/gmp.png" class="card-img-top" alt="Good Manufacturing Practices (GMP) logo.">
-                <div class="card-body">
-                    <h5 class="card-title">GMP Expertise</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="https://www.fda.gov/drugs/pharmaceutical-quality-resources/current-good-manufacturing-practice-cgmp-regulations" target="_blank" class="btn btn4">Visit FDA.gov</a>
+            <div id='contact' class='text-dark text-center bgParallax'>
+                <div class='container-fluid bg-black bg-opacity-25' style="border-radius:4px;">
+                    <form class='container-fluid' action="https://formsubmit.co/f61adf2ff38bc5c4deb30cb261bf1ec0" method="POST">
+                        <div class='form-item row'>
+                            <label class='col-sm-2' for="">Name: </label>
+                            <input class='col-sm-10' type="text" name='name' placeholder='Full Name (Required)' required>
+                        </div>
+                        <div class='form-item row'>
+                            <label class='col-sm-2' for="">Company: </label>
+                            <input class='col-sm-10' type="text" name="company" placeholder='Company Name (Optional)'>
+                        </div>
+                        <div class='form-item row'>
+                            <label class='col-sm-2' for="">Phone: </label>
+                            <input class='col-sm-10' type="tel" name="phone" placeholder='xxx-xxx-xxxx (Required)' required>
+                        </div>
+                        <div class='form-item row'>
+                            <label class='col-sm-2' for="">Email:</label>
+                            <input class='col-sm-10' type="email" name='email' placeholder="your_email@domain.com (Required)" required>
+                        </div>
+                        <div class='form-item row'>
+                            <label class='col-sm-2' for="">Message:</label>
+                            <textarea class='col-sm-10' name="message" cols="30" rows="10" placeholder="Tell us about your engineering needs. (Required)" required></textarea>
+                        </div>
+                        <input type="hidden" name="_subject" value="New LeNova Inquiry!">
+                        <input type="hidden" name="_template" value="basic">
+                        <button id='emailButton' class='float-end col-sm-10 btn'>Send Email</button>
+                    </form>
                 </div>
             </div>
-            <div class="card col-sm-3" style="width: 18rem;">
-                <img src="../pics/sdlc.jpg" class="card-img-topb" alt="System Development Life Cycle (SDLC) image.">
-                <div class="card-body">
-                    <h5 class="card-title">System Development LifeCycle Approach</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="https://ispe.org/publications/guidance-documents/gamp-5" target='_blank' class="btn btn5">ISPE GAMP</a>
-                </div>
+
+            <div class="container-fluid row mx-auto justify-content-evenly my-4">
+                <iframe class='col-md-5 boxShadowBlack my-4' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d783028.4924217694!2d-75.8719590892463!3d39.94798676291994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6c191f3adf4a9%3A0x4066eeee7bc551d0!2sPhiladelphia%20Metropolitan%20Area!5e0!3m2!1sen!2sus!4v1646692620187!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <iframe class='col-md-5 boxShadowBlack my-4' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d114018.46205455496!2d-80.19908000428104!3d26.74192074719705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d8d5ccb595adc1%3A0x15efc7b51fe16bde!2sWest%20Palm%20Beach%2C%20FL!5e0!3m2!1sen!2sus!4v1646692745285!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
-            <div class="card col-sm-3" style="width: 18rem;">
-                <img src="../pics/osd2/pillsBlisterPacks.jpg" class="card-img-top" alt="Blister packs of pills.">
-                <div class="card-body">
-                    <h5 class="card-title">Oral Solid Dosage Version 2</h5>
-                    <p class="card-text">30 years+ experience in design and delivery of Oral Solid Dosage, Manufacturing Execution Systems, Process Analytical Technologies, and Continuous Manufacturing Production.</p>
-                    <a href="../pages/osd2.html" class="btn btn6">Click Me</a>
-                </div>
-            </div>
-            <div class="card col-sm-3" style="width: 18rem;">
-                <img src="../pics/osd1.jpg" class="card-img-top" alt="Background image of an Oral Solid Dosage (OSD) manufacturing system.">
-                <div class="card-body">
-                    <h5 class="card-title">Oral Solid Dosage Operations</h5>
-                    <p class="card-text">30 years+ experience in design and delivery of Oral Solid Dosage, Manufacturing Execution Systems, Process Analytical Technologies, and Continuous Manufacturing Production.</p>
-                    <a href="../pages/osd.html" class="btn btn7">Click Me</a>
-                </div>
-            </div>
+
         </div>
 
-        
-        <div id='contact' class='container-fluid text-dark text-center boxShadowWhite bgParallax'>
-            <h1 style="text-shadow:1px 1px white;">Contact Us!</h1>
-            <h5>Do you need professional engineering services?</h5>
-            <div class='container-fluid'>
-                <form class='container-fluid p-1' action="https://formsubmit.co/f61adf2ff38bc5c4deb30cb261bf1ec0" method="POST">
-                    <div class='form-item row'>
-                        <label class='col-sm-2' for="">Name: </label>
-                        <input class='col-sm-10' type="text" name='name' placeholder='Full Name (Required)' required>
-                    </div>
-                    <div class='form-item row'>
-                        <label class='col-sm-2' for="">Company: </label>
-                        <input class='col-sm-10' type="tel" name="company" placeholder='Company Name (Optional)'>
-                    </div>
-                    <div class='form-item row'>
-                        <label class='col-sm-2' for="">Phone: </label>
-                        <input class='col-sm-10' type="tel" name="phone" placeholder='xxx-xxx-xxxx (Required)' required>
-                    </div>
-                    <div class='form-item row'>
-                        <label class='col-sm-2' for="">Email:</label>
-                        <input class='col-sm-10' type="email" name='email' placeholder="your_email@domain.com (Required)" required>
-                    </div>
-                    <div class='form-item row'>
-                        <label class='col-sm-2' for="">Message:</label>
-                        <textarea class='col-sm-10' name="message" cols="30" rows="10" placeholder="Tell us about your engineering needs. (Required)" required></textarea>
-                    </div>
-                    <input type="hidden" name="_subject" value="New LeNova Inquiry!">
-                    <input type="hidden" name="_template" value="basic">
-                    <button id='emailButton' class='float-end col-sm-10 btn'>Send Email</button>
-                </form>
-            </div>
-        </div>
+        <hr class='my-4' style="color:transparent;">
+
+
 
         <footer class='container-fluid pt-3'>
             <div id='footer' class='text-center'>

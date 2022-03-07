@@ -1,0 +1,96 @@
+#contactLogos {
+    max-width: 800px;
+}
+
+.contactLogo {
+    max-width: 2rem;
+    max-height: 2rem;
+    transition: transform 0.5s ease-in-out;
+    border-radius: 50%;
+}
+
+.contactLogoSquare {
+    max-width: 2rem;
+    max-height: 2rem;
+    transition: transform 0.5s ease-in-out;
+    border-radius: 10%;
+}
+
+.contactLogo:hover,
+.contactLogo:focus,
+.contactLogoSquare:hover,
+.contactLogoSquare:focus {
+    transform: scale(-1, 1) scale(1);
+    opacity: 1;
+}
+
+form {
+    max-width: 800px !important;
+    margin: 2rem auto 4rem auto !important;
+}
+
+.form-item>input {
+    background-color: transparent;
+    color: #00857c;
+    border-radius: 0.25rem;
+    border: .125rem solid black;
+    margin-bottom: 0.5rem;
+}
+
+.form-item>input::placeholder,.form-item>textarea::placeholder  {
+    color: silver;
+}
+
+.form-item>textarea {
+    background-color: transparent;
+    color: white;
+    text-shadow: 1px 1px black;
+    border-radius: 0.25rem;
+    margin-bottom: 0.5rem;
+    border: .125rem solid black;
+    resize: none;
+}
+
+.form-item>label {
+    font-weight: bolder;
+    align-self: center;
+    display: flex;
+    justify-content: start;
+    text-shadow: 1px 1px black;
+    color: white;
+}
+
+input {
+    background-color: white !important;
+    align-self: center;
+    display: flex;
+    justify-content: start;
+}
+
+.boxShadowWhite {
+    box-shadow: 0 0 1rem 1rem white inset;
+}
+
+.bgParallax {
+    background-image: url('../pics/draftingtriangle.jpg');
+    animation: bgParallax 180s ease-in-out infinite;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+
+@keyframes bgParallax {
+    0% {
+        background-position: bottom;
+    }
+    50% {
+        background-position: top;
+    }
+    100% {
+        background-position: bottom;
+    }
+}
+
+iframe {
+    width: fit-content;
+    padding: 0 !important;
+}
