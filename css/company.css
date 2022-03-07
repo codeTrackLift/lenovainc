@@ -1,3 +1,7 @@
+li {
+    list-style-type: none;
+}
+
 h5 {
     color: #00857c;
     text-shadow: 1px 1px white;
@@ -31,7 +35,7 @@ h5 {
 }
 
 .bgParallax {
-    background-image: url('../pics/osd/osd5_planetaryMixer.jpg');
+    background-image: url('../pics/about/mechBackground.jpg');
     animation: bgParallax 180s ease-in-out infinite;
     background-position: bottom;
     background-attachment: fixed;

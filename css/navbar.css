@@ -27,7 +27,7 @@ nav,.dropdown-menu {
 
 .navbar-collapse {
     background-color: #00857c;
-    padding-left: 1rem;
+    padding-left: 0.5rem;
 }
 
 #navBarIcon {
@@ -78,6 +78,7 @@ nav,.dropdown-menu {
     background-color: white !important;
     color: #00857c  !important;
     font-weight: bolder;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 @media (max-width:575px) {
@@ -97,6 +98,10 @@ nav,.dropdown-menu {
         background-color: #00857c;
         padding-left: 0.5rem;
     }
+    .navbar-collapse {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 4px;
+    }
 }
 
 
@@ -114,6 +119,7 @@ nav,.dropdown-menu {
     border: 2px solid white;
     border-radius: 4px;
     padding: 0.125rem 0.25rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 #menuLogo {
@@ -121,7 +127,7 @@ nav,.dropdown-menu {
 }
 
 #menuLogo:hover{
-    transform: scale(0.9);
+    transform: scale(0.99);
     background-color: #00857c !important;
-    border-radius: 10px;
+    border-radius: 4px;
 }

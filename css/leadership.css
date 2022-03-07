@@ -31,7 +31,6 @@ li {
 }
 
 .bgParallax {
-    /* width: 100%; */
     background-image: url('../pics/about/mechBackground.jpg');
     animation: bgParallax 180s ease-in-out infinite;
     background-position: left top;
@@ -51,9 +50,16 @@ li {
 }
 
 .imgRotate1 {
-    animation: iconRotate 4s infinite ease-in-out;
+    animation: iconRotate 4s infinite ease-in-out 1s;
+    transition: all 1s ease-in-out;
 }
 
 .imgRotate2 {
-    animation: iconRotate 4s infinite ease-in-out 1s;
+    animation: iconRotate 4s infinite ease-in-out 1.5s;
+    transition: all 1s ease-in-out;
+}
+
+.imgRotate1:hover, .imgRotate2:hover {
+    animation: none;
+    transform: scale(0.5);
 }
