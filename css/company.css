@@ -52,11 +52,3 @@ h5 {
         background-position: left;
     }
 }
-
-.imgRotate1 {
-    animation: iconRotate 4s infinite ease-in-out;
-}
-
-.imgRotate2 {
-    animation: iconRotate 4s infinite ease-in-out 1s;
-}

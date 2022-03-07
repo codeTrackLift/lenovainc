@@ -50,12 +50,12 @@ li {
 }
 
 .imgRotate1 {
-    animation: iconRotate 4s infinite ease-in-out 1s;
+    animation: iconRotate 4s infinite ease-in-out 1.5s;
     transition: all 1s ease-in-out;
 }
 
 .imgRotate2 {
-    animation: iconRotate 4s infinite ease-in-out 1.5s;
+    animation: iconRotate 4s infinite ease-in-out 2s;
     transition: all 1s ease-in-out;
 }
 
