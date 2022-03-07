@@ -79,6 +79,8 @@ nav,.dropdown-menu {
     color: #00857c  !important;
     font-weight: bolder;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    opacity: 1;
+    text-decoration: none !important;
 }
 
 @media (max-width:575px) {
