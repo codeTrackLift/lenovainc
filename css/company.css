@@ -39,7 +39,6 @@ h5 {
     animation: bgParallax 180s ease-in-out infinite;
     background-position: bottom;
     background-attachment: fixed;
-    background-size: cover;
 }
 
 @keyframes bgParallax {
