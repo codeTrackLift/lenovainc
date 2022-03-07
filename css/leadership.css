@@ -33,19 +33,19 @@ li {
 .bgParallax {
     background-image: url('../pics/about/mechBackground.jpg');
     animation: bgParallax 180s ease-in-out infinite;
-    background-position: left top;
+    background-position: center;
     background-attachment: fixed;
 }
 
 @keyframes bgParallax {
     0% {
-        background-position: left top;
+        background-position: left;
     }
     50% {
-        background-position: left bottom;
+        background-position: right;
     }
     100% {
-        background-position: left top;
+        background-position: left;
     }
 }
 
