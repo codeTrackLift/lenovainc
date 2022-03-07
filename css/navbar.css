@@ -66,7 +66,7 @@ nav,.dropdown-menu {
 
 .nav-link {
     padding: 0;
-    transition: all 0.5s ease-in-out;
+    transition: all 0.25s ease-in-out;
     padding: 0.125rem;
     width: fit-content;
     font-weight: bolder;
@@ -75,7 +75,7 @@ nav,.dropdown-menu {
 
 .nav-link:hover,
 .nav-link:focus {
-    background-color: white;
+    background-color: white !important;
     color: #00857c  !important;
     font-weight: bolder;
 }

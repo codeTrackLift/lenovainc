@@ -31,10 +31,11 @@ h5 {
 }
 
 .bgParallax {
-    background-image: url('../pics/about/mechBackground.jpg');
+    background-image: url('../pics/osd/osd5_planetaryMixer.jpg');
     animation: bgParallax 180s ease-in-out infinite;
     background-position: bottom;
     background-attachment: fixed;
+    background-size: cover;
 }
 
 @keyframes bgParallax {
