@@ -32,7 +32,7 @@ li {
 
 .bgParallax {
     background-image: url('../pics/about/mechBackground.jpg');
-    animation: bgParallax 180s ease-in-out infinite;
+    animation: bgParallax 300s ease-in-out infinite;
     background-position: center;
     background-attachment: fixed;
 }
