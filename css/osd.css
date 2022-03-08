@@ -2,32 +2,32 @@ hr {
     color: transparent;
 }
 
-h4 {
+/* h4 {
     line-height: 1.3;
-}
+} */
 
-.h2 {
+/* .h2 {
     font-style: italic;
     text-decoration: underline;
     font-weight: bolder;
-}
+} */
 
-.myP {
+/* .myP {
     line-height: 1.6;
     font-size: 1.25rem;
     font-weight: 400;
     text-shadow: 1px 1px black;
-}
+} */
 
-h2, h3, h4, h5, h6 {
+/* h2, h3, h4, h5, h6 {
     text-shadow: 1px 1px black;
-}
+} */
 
-p {
-    /* padding: 1rem; */
+/* p {
+    padding: 1rem;
     color: white;
     text-shadow: 1px 1px black;
-}
+} */
 
 .myImg {
     border-radius: 1rem !important;
@@ -49,16 +49,16 @@ p {
     opacity: 1;
 }
 
-/* Styling for Additional Pages */
-#homePage {
-    border: 1px solid #00857c;
-    background-color: transparent;
-    color: #00857c;
+@media (min-width: 900px) {
+    #areaOfExpertise {
+        width: fit-content;
+    }
 }
 
-#homePage:hover {
-    background-color: #00857c;
-    color: white;
+@media (max-width: 575px) {
+    #areaOfExpertise {
+        width: fit-content;
+    }
 }
 
 #pillBottleCartoon {
@@ -67,7 +67,7 @@ p {
 }
 
 .bgParallax {
-    background-image: url('../pics/osd2/pillsLeftSideOnly.jpg');
+    background-image: url('../pics/osd/pillsLeftSideOnly.jpg');
     animation: bgParallax 180s ease-in-out infinite;
     background-position: left top;
     background-attachment: fixed;
