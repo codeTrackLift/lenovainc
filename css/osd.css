@@ -2,33 +2,6 @@ hr {
     color: transparent;
 }
 
-/* h4 {
-    line-height: 1.3;
-} */
-
-/* .h2 {
-    font-style: italic;
-    text-decoration: underline;
-    font-weight: bolder;
-} */
-
-/* .myP {
-    line-height: 1.6;
-    font-size: 1.25rem;
-    font-weight: 400;
-    text-shadow: 1px 1px black;
-} */
-
-/* h2, h3, h4, h5, h6 {
-    text-shadow: 1px 1px black;
-} */
-
-/* p {
-    padding: 1rem;
-    color: white;
-    text-shadow: 1px 1px black;
-} */
-
 .myImg {
     border-radius: 1rem !important;
     transition: all 0.5s ease-in-out;
