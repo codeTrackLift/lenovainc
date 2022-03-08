@@ -24,6 +24,10 @@
     opacity: 1;
 }
 
+#contact>div {
+    padding: 0 1rem;
+}
+
 form {
     max-width: 800px !important;
     margin: 2rem auto 4rem auto !important;
