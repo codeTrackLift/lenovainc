@@ -1,32 +1,3 @@
-.carousel-item>img {
-    position: relative;
-}
-
-#logo {
-    background-color: transparent;
-    top: 0;
-    position: absolute;
-    max-height: 80vmin;
-}
-
-figure>a {
-    margin: -2vmin 0 0 10vw;
-}
-
-#aboutImg {
-    border-radius: 50%;
-    object-fit: cover;
-    height: 30vmin;
-    width: 30vmin;
-    opacity: 0.3;
-    transition: all 0.5s ease-in-out;
-    margin-left: -35vmin;
-}
-
-#aboutImg:hover,#aboutImg.show {
-    transform: scale(-1, 1) scale(1.5);
-}
-
 hr {
     color: transparent;
 }
@@ -41,17 +12,40 @@ h4 {
     font-weight: bolder;
 }
 
-.bgEffectMid {
-    background-image: radial-gradient(farthest-side at 85% 15%, #00857c, silver, #00857c);
+.myP {
+    line-height: 1.6;
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-shadow: 1px 1px black;
 }
 
-/* Animations Below */
+h2, h3, h4, h5, h6 {
+    text-shadow: 1px 1px black;
+}
 
-.btn1,.btn2,.btn3,.btn4,.btn5,.btn6,.btn7,.btn8 {
+p {
+    /* padding: 1rem; */
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+.myImg {
+    border-radius: 1rem !important;
+    transition: all 0.5s ease-in-out;
+    margin: auto auto;
+    /* padding: 0.5rem; */
+    max-width: 80vw;
+}
+
+.myImg:hover {
+    transform: scale(1.025);
+}
+
+.btn1 {
     opacity: 0;
 }
 
-.btn1.show,.btn2.show,.btn3.show,.btn4.show,.btn5.show,.btn6.show,.btn7.show,.btn8.show {
+.btn1.show {
     opacity: 1;
 }
 
@@ -67,12 +61,26 @@ h4 {
     color: white;
 }
 
-.img-fluid.rounded {
-    transition: all 0.5s ease-in-out;
-    border: 0.25rem solid transparent;
-    margin: auto 0;
+#pillBottleCartoon {
+    height: 3rem;
+    margin: 0 1rem;
 }
-.img-fluid.rounded:hover {
-    transform: scale(0.95);
-    opacity: 0.75;
+
+.bgParallax {
+    background-image: url('../pics/osd2/pillsLeftSideOnly.jpg');
+    animation: bgParallax 180s ease-in-out infinite;
+    background-position: left top;
+    background-attachment: fixed;
+}
+
+@keyframes bgParallax {
+    0% {
+        background-position: left top;
+    }
+    50% {
+        background-position: left bottom;
+    }
+    100% {
+        background-position: left top;
+    }
 }
