@@ -71,9 +71,17 @@ input {
     justify-content: start;
 }
 
-.boxShadowWhite {
-    box-shadow: 0 0 1rem 1rem white inset;
+#emailButton:hover,#emailButton:focus {
+    background: transparent;
+    border-color: white;
+    color: white;
+    text-shadow: 1px 1px black;
 }
+
+
+/* .boxShadowWhite {
+    box-shadow: 0 0 1rem 1rem white inset;
+} */
 
 .bgParallax {
     background-image: url('../pics/draftingtriangle.jpg');
