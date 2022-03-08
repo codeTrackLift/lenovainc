@@ -106,3 +106,13 @@ iframe {
     width: fit-content;
     padding: 0 !important;
 }
+
+#logos {
+    margin: 0 auto 3rem auto;
+    width: 80vw;
+    max-width: 1280px;
+}
+
+#logos>div>img {
+    width: 5rem;
+}
