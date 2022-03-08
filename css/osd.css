@@ -6,11 +6,11 @@ hr {
     border-radius: 1rem !important;
     transition: all 0.5s ease-in-out;
     margin: auto auto;
-    /* padding: 0.5rem; */
+    padding: 0.5rem;
     max-width: 80vw;
-}
+} */
 
-.myImg:hover {
+/* .myImg:hover {
     transform: scale(1.025);
 } */
 
