@@ -9,6 +9,7 @@ Visit [www.lenovainc.com](https://www.lenovainc.com) for professional engineerin
     <li>Bootstrap</li>
     <li>Scroll Magic</li>
     <li>CSS Flex and Transitions</li>
+    <li>Responsive Web Design</li>
 </ol>
 
 ## About
