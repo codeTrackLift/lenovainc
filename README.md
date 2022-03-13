@@ -18,12 +18,16 @@ The website is currently in development with client permission to include as one
 This is my first contract Web Developer project. Thanks for the opportunity to create this website for LeNova, Inc!
 
 ## Features & Roadmap
+- [x] 'Under Construction' placeholder
 - [x] Custom designed logo
 - [x] Fully responsive design
 - [x] Mobile compatible
-- [ ] About Us section build-out
-- [ ] Projects section build-out
-- [ ] Expertise section build-out
+- [x] Contact Us section build-out
+- [x] About Us section build-out
+- [ ] Leadership section build-out
+- [ ] Expertise section 1 build-out
+- [ ] Expertise section 2 build-out
+- [ ] Expertise section 3 build-out
 
 ## Project Photographs are Property of LeNova, Inc.
 
