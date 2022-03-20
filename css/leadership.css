@@ -2,11 +2,11 @@
     font-weight: bolder;
 }
 
-.btn1 {
+.btn1, .btn2 {
     opacity: 0;
 }
 
-.btn1.show {
+.btn1.show, .btn2.show {
     opacity: 1;
 }
 
