@@ -218,19 +218,15 @@
 
     <hr style='color:transparent'>
 
-    <!-- <div class='container-fluid  mt-5' style='margin-left:1rem;margin-bottom:2rem;'>
-        <a href="../pages/welcome.html" id='homePage' class='btn'>&lt; Back to Homepage</a>
-    </div> -->
-
-    <footer class='container-fluid pt-3'>
-        <div id='footer' class='text-center'>
+    <footer id='footer' class='container-fluid pt-3'>
+        <!-- <div class='text-center'>
             <p>Copyright &#169;
                 <script>
                     document.write(new Date().getFullYear())
                 </script>
                 <img id='footerIcon' class='d-none d-sm-inline' src="../favicon.ico" alt="LeNova, Inc. Icon.">
                 <span>LeNova, Inc.</span></p>
-        </div>
+        </div> -->
     </footer>
 
     <!-- JS Plugins: Bootstrap, SMTP -->
@@ -238,7 +234,12 @@
 
     <!-- My JS -->
     <script src="../js/navbar.js"></script>
-    <script>injectMyNavbar();setActiveNavlink('nav-linkAbout');</script>
+    <script src="../js/footer.js"></script>
+    <script>
+        injectMyNavbar();
+        setActiveNavlink('nav-linkAbout');
+        injectMyFooter();
+    </script>
 </body>
 
 </html>

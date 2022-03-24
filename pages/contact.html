@@ -194,15 +194,15 @@
         </div>
     </div>
 
-    <footer class='container-fluid pt-3'>
-        <div id='footer' class='text-center'>
+    <footer id='footer' class='container-fluid pt-3'>
+        <!-- <div class='text-center'>
             <p>Copyright &#169;
                 <script>
                     document.write(new Date().getFullYear())
                 </script>
                 <img id='footerIcon' class='d-none d-sm-inline' src="../favicon.ico" alt="LeNova, Inc. Icon.">
                 <span>LeNova, Inc.</span></p>
-        </div>
+        </div> -->
     </footer>
 
 
@@ -211,7 +211,12 @@
 
     <!-- My JS -->
     <script src="../js/navbar.js"></script>
-    <script>injectMyNavbar();setActiveNavlink('nav-linkContact');</script>
+    <script src="../js/footer.js"></script>
+    <script>
+            injectMyNavbar();
+            setActiveNavlink('nav-linkContact');
+            injectMyFooter();
+    </script>
 </body>
 
 </html>
