@@ -106,6 +106,9 @@ nav,.dropdown-menu {
     }
 }
 
+.dropdown-item.active {
+    background-color: transparent;
+}
 
 /* navbar-brand and menuLogo hover effects keep at bottom */
 .navbar-brand {

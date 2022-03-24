@@ -46,13 +46,12 @@
 
 <body class='container-fluid'>
 
-    <nav class="navbar navbar-expand-sm navbar-p navbar-dark sticky-top">
-        <div class="container-fluid">
+    <nav id='navbar' class="navbar navbar-expand-sm navbar-p navbar-dark sticky-top">
+        <!-- <div class="container-fluid">
             <a class="navbar-brand d-none d-sm-block" href="../pages/welcome.html"><img
                     src="../pics/lenovalogosmall.gif" style='height:1.5rem;' alt="LeNova Inc Logo, small."></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
                 aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                <!-- <span class="navbar-toggler-icon"></span> -->
                 <img id='navBarIcon' src="../favicon.ico" alt="LeNova, Inc. icon." style="height:2rem;">
             </button>
             <div class="collapse navbar-collapse" id="navbarScroll">
@@ -68,9 +67,6 @@
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="../pages/leadership.html">Leadership</a>
                     </li>
-                    <!-- <li class="nav-item">
-                        <a class="nav-link" href="../pages/newpage.html">Link</a>
-                    </li> -->
                     <li class="nav-item dropdown ">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
@@ -85,12 +81,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="../pages/contact.html">Contact</a>
                     </li>
-                    <!-- <li class="nav-item">
-                        <a class="nav-link disabled">Link</a>
-                    </li> -->
                 </ul>
             </div>
-        </div>
+        </div> -->
     </nav>
 
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
@@ -259,6 +252,10 @@
 
     <!-- JS: Bootstrap -->
     <script src="../libraries/bootstrap.min.js"></script>
+
+    <!-- My JS-->
+    <script src="../js/navbar.js"></script>
+    <script>injectMyNavbar();setActiveNavlink('nav-linkLeadership');</script>
 </body>
 
 </html>
