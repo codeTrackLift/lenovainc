@@ -4,7 +4,7 @@ const myFooter = `
     <div class='text-center'>
         <p>Copyright &#169;
             ${currentYear}
-            <img id='footerIcon' class='d-none d-sm-inline' src="../pics/logos/footerIcon.ico" alt="LeNova, Inc. Icon.">
+            <img id='footerIcon' class='d-none d-sm-inline' src="../pics/logos/lenovaIcon.ico" alt="LeNova, Inc. Icon.">
             <span>LeNova, Inc.</span>
         </p>
     </div>

@@ -5,7 +5,7 @@ const myNavbar = `
                 src="../pics/lenovalogosmall.gif" style='height:1.5rem;' alt="LeNova Inc Logo, small."></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
             aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-            <img id='navBarIcon' src="../favicon.ico" alt="LeNova, Inc. icon." style="height:2rem;">
+            <img id='navBarIcon' src="../pics/logos/lenovaIcon.ico" alt="LeNova, Inc. icon." style="height:2rem;">
         </button>
         <div class="collapse navbar-collapse" id="navbarScroll">
             <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll w-100 justify-content-evenly">
