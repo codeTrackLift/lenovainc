@@ -34,13 +34,13 @@ hr {
     }
 }
 
-#pillBottleCartoon {
-    height: 3rem;
+#hospitalCartoon {
+    height: 5rem;
     margin: 0 1rem;
 }
 
 .bgParallax {
-    background-image: url('../pics/healthcare/hospitalWardBlue.jpg');
+    background-image: linear-gradient(rgba(50, 50, 50, 0.7), rgba(50, 50, 50, 0.7)), url('../pics/healthcare/hospitalWardBlue.jpg');
     animation: bgParallax 180s ease-in-out infinite;
     background-position: top;
     background-attachment: fixed;
@@ -56,4 +56,19 @@ hr {
     100% {
         background-position: right top;
     }
+}
+
+.imgRotate1 {
+    animation: iconRotate 4s infinite ease-in-out 1.5s;
+    transition: all 1s ease-in-out;
+}
+
+.imgRotate2 {
+    animation: iconRotate 4s infinite ease-in-out 2s;
+    transition: all 1s ease-in-out;
+}
+
+.imgRotate1:hover, .imgRotate2:hover {
+    animation: none;
+    transform: scale(0.5);
 }

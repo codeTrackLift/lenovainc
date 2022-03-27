@@ -14,12 +14,12 @@ hr {
     transform: scale(1.025);
 } */
 
-.btn1,.btnBottom {
+.btn1 {
     opacity: 0;
     transform: translateX(-1rem);
 }
 
-.btn1.show,.btnBottom.show {
+.btn1.show {
     opacity: 1;
     transform: translateX(0);
 }
@@ -57,6 +57,23 @@ hr {
     }
     100% {
         background-position: left top;
+    }
+}
+
+@media (min-width: 1200px) {
+    .bgParallax {
+        background-position: top;
+    }
+    @keyframes bgParallax {
+        0% {
+            background-position: top;
+        }
+        50% {
+            background-position: bottom;
+        }
+        100% {
+            background-position: top;
+        }
     }
 }
 

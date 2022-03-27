@@ -72,7 +72,7 @@ figure>a {
     border: 1px solid #00857c;
     background-color: #00857c;
     color: white;
-    transition: all 0.5s ease-in-out;
+    transition: all 0.25s ease-in-out;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
@@ -98,11 +98,16 @@ figure>a {
 }
 
 .textShadowBlack {
-    text-shadow: 2px 2px black;
+    text-shadow: 1px 1px black;
 }
 
 .textShadowSilver {
-    text-shadow: 2px 2px silver;
+    text-shadow: 1px 1px silver;
+}
+
+.dropShadow {
+    -webkit-filter: drop-shadow(1px 1px 1px black);
+    filter: drop-shadow(1px 1px 1px black);
 }
 
 .myArticles {
@@ -124,8 +129,17 @@ figure>a {
     transition: all 0.5s ease-in-out;
     margin: 0 1rem;
 }
+
 #logos>div>img:hover {
     transform: translateY(-1rem);
+}
+
+.btnBottom {
+    transform: translateY(-3rem);
+}
+
+.btnBottom.show {
+    transform: translateY(0);
 }
 
 footer {
