@@ -136,6 +136,7 @@ figure>a {
 
 .btnBottom {
     transform: translateY(-3rem);
+    transition: all 1s ease-in-out;
 }
 
 .btnBottom.show {
