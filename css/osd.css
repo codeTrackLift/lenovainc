@@ -39,6 +39,11 @@ hr {
 #pillBottleCartoon {
     height: 3rem;
     margin: 0 1rem;
+    transition: transform 0.5s ease-in-out;
+}
+
+#pillBottleCartoon:hover {
+    animation: iconRotate 2s ease-in-out infinite alternate-reverse;
 }
 
 .bgParallax {
