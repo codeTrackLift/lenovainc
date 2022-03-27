@@ -113,6 +113,21 @@ figure>a {
     line-height: 1.6;
 }
 
+#logos {
+    margin: 0 auto 3rem auto;
+    width: 80vw;
+    max-width: 1280px;
+}
+
+#logos>div>img {
+    width: 5rem;
+    transition: all 0.5s ease-in-out;
+    margin: 0 1rem;
+}
+#logos>div>img:hover {
+    transform: translateY(-1rem);
+}
+
 footer {
     color: white;
     background-color: #00857c;
