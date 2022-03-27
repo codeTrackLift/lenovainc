@@ -69,3 +69,11 @@ var btn8 = new ScrollMagic.Scene({
 })
 .setClassToggle('.btn8', 'show')
 .addTo(controllerBtn8);
+
+var controllerBtnBottom = new ScrollMagic.Controller();
+var btnBottom = new ScrollMagic.Scene({
+    triggerElement: '.btnBottom',
+    offset: -500
+})
+.setClassToggle('.btnBottom', 'show')
+.addTo(controllerBtnBottom);
