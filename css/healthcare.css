@@ -57,6 +57,21 @@ hr {
 }
 
 .imgRotate1:hover, .imgRotate2:hover {
-    animation: none;
-    transform: scale(0.5);
+    animation: iconRotateColors 1s infinite ease-in-out 0.25s;
+    padding: 0.5rem;
+}
+
+@keyframes iconRotateColors {
+    0% {
+        transform: scale(1);
+        background-color: transparent;
+    }
+    50% {
+        transform: scale(-1, 1) scale(1);
+        background-color: blue;
+    }
+    100% {
+        transform: scale(1);
+        background-color: red;
+    }
 }
