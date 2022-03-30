@@ -10,18 +10,6 @@ hr {
     opacity: 1;
 }
 
-@media (min-width: 900px) {
-    #areaOfExpertise {
-        width: fit-content;
-    }
-}
-
-@media (max-width: 575px) {
-    #areaOfExpertise {
-        width: fit-content;
-    }
-}
-
 #hospitalCartoon {
     height: 5rem;
     margin: 0 1rem;
@@ -33,8 +21,7 @@ hr {
 }
 
 .bgParallax {
-    background-image: url('../pics/commercial/bgBirdsEye.jpg');
-    /* background-image: linear-gradient(rgba(50, 50, 50, 0.7), rgba(50, 50, 50, 0.7)), url('../pics/commercial/bgBirdsEye.jpg'); */
+    background-image: url('../pics/commercial/philaCenterSquareBuildingOne.jpg');
     animation: bgParallax 180s ease-in-out infinite;
     background-position: top;
     background-attachment: fixed;
@@ -70,14 +57,14 @@ hr {
 @keyframes iconRotateColors {
     0% {
         transform: scale(1);
-        background-color: transparent;
+        background-color: white;
     }
     50% {
         transform: scale(-1, 1) scale(1);
-        background-color: blue;
+        background-color: yellow;
     }
     100% {
         transform: scale(1);
-        background-color: red;
+        background-color: black;
     }
 }

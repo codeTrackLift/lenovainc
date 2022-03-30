@@ -10,18 +10,6 @@ hr {
     opacity: 1;
 }
 
-@media (min-width: 900px) {
-    #areaOfExpertise {
-        width: fit-content;
-    }
-}
-
-@media (max-width: 575px) {
-    #areaOfExpertise {
-        width: fit-content;
-    }
-}
-
 #hospitalCartoon {
     height: 5rem;
     margin: 0 1rem;
