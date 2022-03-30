@@ -130,6 +130,11 @@ figure>a {
     margin: 0 1rem;
 }
 
+#logos>div>img.logosWide {
+    width: 10rem;
+    margin: 0.5rem;
+}
+
 #logos>div>img:hover {
     transform: translateY(-1rem);
 }
