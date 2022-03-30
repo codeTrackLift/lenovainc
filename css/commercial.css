@@ -33,7 +33,8 @@ hr {
 }
 
 .bgParallax {
-    background-image: linear-gradient(rgba(50, 50, 50, 0.7), rgba(50, 50, 50, 0.7)), url('../pics/healthcare/hospitalWardBlue.jpg');
+    background-image: url('../pics/commercial/bgBirdsEye.jpg');
+    /* background-image: linear-gradient(rgba(50, 50, 50, 0.7), rgba(50, 50, 50, 0.7)), url('../pics/commercial/bgBirdsEye.jpg'); */
     animation: bgParallax 180s ease-in-out infinite;
     background-position: top;
     background-attachment: fixed;
@@ -79,8 +80,4 @@ hr {
         transform: scale(1);
         background-color: red;
     }
-}
-
-#logos>div>img {
-    width: 10rem;
 }
