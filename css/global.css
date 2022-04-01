@@ -155,7 +155,7 @@ figure>a {
 div.scrollmenu {
     background-color: transparent;
     /* overflow: auto; */
-    overflow-x: scroll;
+    /* overflow-x: scroll; */
     white-space: nowrap;
     padding: 2rem 0;
     scrollbar-width: none;
@@ -182,13 +182,13 @@ div.scrollmenu a:hover {
     width: 100vw;
     overflow-x: scroll;
     white-space: nowrap;
-    background-color: #fff;
+    /* background-color: #fff; */
     display: flex;
     -ms-overflow-style: none;
 }
 
 .scroll-disabler {
-    width: 100vw;
+    /* width: 100vw; */
     height: 34.4px;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.0001);
