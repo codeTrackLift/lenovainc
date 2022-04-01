@@ -130,5 +130,5 @@ div.scrollmenu a {
 }
 
 div.scrollmenu a:hover {
-    transform: translateY(-1rem);
+    transform: translateY(-1rem) !important;
 }
