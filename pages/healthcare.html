@@ -191,11 +191,12 @@
         </div>
     </div>
 
-    <div id='logos' class='container-fluid text-dark text-center mt-5'>
+    <div id='logos' style='max-width:640px' class='container-fluid text-dark text-center mt-5'>
         <h2>We have completed projects with</h2>
         <div class="d-flex w-100 justify-content-around">
             <h2 class="my-auto">&#8612;</h2>
-            <div class="scrollmenu my-4">
+            <div id='logosScroll' class="scrollmenu my-4">
+                <div class="scroll-disabler"></div>
                 <a href="https://ariahealth.com/" target="_blank" class="boxShadowBig"
                     style="color:dimgray;background-color:aquamarine;border-radius: 50% 20% / 10% 40%;">Aria<br><span
                         class="text-white">Health</span></a>
@@ -229,6 +230,7 @@
 
     <script src="../js/navbar.js"></script>
     <script src='../js/scrollMagic.js'></script>
+    <script src='../js/logosScroll.js'></script>
     <script src="../js/footer.js"></script>
     <script>
         injectMyNavbar();

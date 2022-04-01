@@ -13,7 +13,7 @@ window.addEventListener('load', () => {
         if (logosScroll.scrollLeft !== logosScrollWidth) {
             logosScroll.scrollTo(logosScroll.scrollLeft + 1, 0);
         }
-    }, 15);
+    }, 25);
 });
 
 function isElementInViewport(el) {
