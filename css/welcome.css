@@ -113,7 +113,7 @@ div.scrollmenu {
     background-color: transparent;
     overflow: auto;
     white-space: nowrap;
-    padding: 1rem 0;
+    padding: 2rem 0;
 }
 
 div.scrollmenu a {
