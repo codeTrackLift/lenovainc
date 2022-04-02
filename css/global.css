@@ -163,13 +163,6 @@ div.scrollmenu a:hover {
     -ms-overflow-style: none;
 }
 
-/* .scroll-disabler {
-    width: 100vw;
-    height: 34.4px;
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.0001);
-} */
-
 ::-webkit-scrollbar {
     display: none;
 }

@@ -2,7 +2,7 @@ const navbar = document.getElementById('navbar');
 const myNavbar = `
     <div class="container-fluid">
         <a class="navbar-brand d-none d-sm-block" href="../pages/welcome.html"><img
-                src="../pics/lenovalogosmall.gif" style='height:1.5rem;' alt="LeNova Inc Logo, small."></a>
+                src="../pics/lenovalogosmall.gif" class='dropShadow' style='height:1.5rem;' alt="LeNova Inc Logo, small."></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
             aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
             <img id='navBarIcon' src="../pics/logos/lenovaIcon.ico" alt="LeNova, Inc. icon." style="height:2rem;">

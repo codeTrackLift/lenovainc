@@ -76,6 +76,12 @@ nav,.dropdown-menu {
 .nav-link.active {
     border-bottom: 2px solid white;
     border-radius: 0;
+    -webkit-filter: drop-shadow(1px 1px 1px black);
+    filter: drop-shadow(1px 1px 1px black);
+}
+
+#nav-linkWelcome.active {
+    border-bottom: none;
 }
 
 .nav-link:hover,
@@ -84,6 +90,8 @@ nav,.dropdown-menu {
     color: #00857c  !important;
     font-weight: bolder;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    -webkit-filter: drop-shadow(1px 1px 1px black);
+    filter: drop-shadow(1px 1px 1px black);
     opacity: 1;
     text-decoration: none !important;
     border-radius: 4px;
