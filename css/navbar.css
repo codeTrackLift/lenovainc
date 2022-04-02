@@ -75,6 +75,7 @@ nav,.dropdown-menu {
 
 .nav-link.active {
     border-bottom: 2px solid white;
+    margin-bottom: -2px;
     border-radius: 0;
     -webkit-filter: drop-shadow(1px 1px 1px black);
     filter: drop-shadow(1px 1px 1px black);
