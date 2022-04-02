@@ -175,12 +175,12 @@ div.scrollmenu a:hover {
 }
 
 .btnBottom {
-    transform: translateY(-3rem);
+    transform: translateY(-2rem);
     transition: all 1s ease-in-out;
 }
 
 .btnBottom.show {
-    transform: translateY(0);
+    transform: translateY(0rem);
 }
 
 footer {
