@@ -70,7 +70,12 @@ nav,.dropdown-menu {
     padding: 0.125rem;
     width: fit-content;
     font-weight: bolder;
-    border-radius: 4px;
+    
+}
+
+.nav-link.active {
+    border-bottom: 2px solid white;
+    border-radius: 0;
 }
 
 .nav-link:hover,
@@ -81,6 +86,7 @@ nav,.dropdown-menu {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     opacity: 1;
     text-decoration: none !important;
+    border-radius: 4px;
 }
 
 @media (max-width:575px) {
@@ -132,7 +138,8 @@ nav,.dropdown-menu {
 }
 
 #menuLogo:hover{
-    transform: scale(0.99);
+    transform: scale(0.98);
     background-color: #00857c !important;
     border-radius: 4px;
+    margin-left: 0.25rem;
 }
