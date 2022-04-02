@@ -37,8 +37,7 @@ const logosOSD = `
             border-radius:4px;
             line-height:1.1;
         ">
-        <span style="font-size:2rem;">G</span><span style="font-size:1.25rem;">uardian</span> <br><span
-        style="font-size:1rem;background-color: navy;color:white;padding:0.5rem 1rem;margin:0 -1.75rem;">Drug
+        <span style="font-size:2rem;">G</span><span style="font-size:1.25rem;">uardian</span> <br><span style="font-size:1rem;background-color: navy;color:white;padding:0.5rem 1rem;margin:0 -1.75rem;">Drug
         Company</span>
     </a>
 
