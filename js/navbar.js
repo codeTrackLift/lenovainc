@@ -1,8 +1,9 @@
 const navbar = document.getElementById('navbar');
 const myNavbar = `
     <div class="container-fluid">
-        <a class="navbar-brand d-none d-sm-block" href="../pages/welcome.html"><img
-                src="../pics/lenovalogosmall.gif" class='dropShadow' style='height:1.5rem;' alt="LeNova Inc Logo, small."></a>
+        <a class="navbar-brand d-none d-sm-block" href="../pages/welcome.html">
+            <img id='navbarLogo' src="../pics/lenovalogosmall.gif" style='height:1.5rem;' alt="LeNova Inc Logo, small.">
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
             aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
             <img id='navBarIcon' src="../pics/logos/lenovaIcon.ico" alt="LeNova, Inc. icon." style="height:2rem;">
@@ -45,4 +46,10 @@ const injectMyNavbar = () => navbar.innerHTML = myNavbar;
 const setActiveNavlink = (navlink) => {
     document.getElementById(navlink).classList.add('active');
     document.getElementById(navlink).ariaCurrent = 'page';
+}
+
+const setWelcomeNavbarLogo = () => {
+    const navbarLogo = document.getElementById('navbarLogo')
+    navbarLogo.classList.add('dropShadow');
+    navbarLogo.style.opacity = 1;
 }

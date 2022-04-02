@@ -81,8 +81,13 @@ nav,.dropdown-menu {
     filter: drop-shadow(1px 1px 1px black);
 }
 
+#nav-linkWelcome {
+    opacity: 0.75;
+}
+
 #nav-linkWelcome.active {
     border-bottom: none;
+    opacity: 1;
 }
 
 .nav-link:hover,
@@ -131,6 +136,7 @@ nav,.dropdown-menu {
     background-color: #00857c;
     padding: 0.125rem 0.25rem;
     border: 2px solid #00857c;
+    
 }
 
 .navbar-brand:hover,
@@ -141,6 +147,12 @@ nav,.dropdown-menu {
     padding: 0.125rem 0.25rem;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+
+#navbarLogo {
+    opacity: 0.75;;
+}
+
+
 
 #menuLogo {
     transition: transform 0.25s ease-in-out;
