@@ -12,9 +12,9 @@ window.addEventListener('load', () => {
             logosScroll.scrollTo(logosScroll.scrollLeft - first.offsetWidth, 0);
         }
         if (logosScroll.scrollLeft !== logosScrollWidth) {
-            logosScroll.scrollTo(logosScroll.scrollLeft + 2, 0);
+            logosScroll.scrollTo(logosScroll.scrollLeft + 1, 0);
         }
-    }, 15);
+    }, 25);
 });
 
 function isElementInViewport(el) {
