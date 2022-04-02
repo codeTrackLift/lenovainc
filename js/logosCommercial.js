@@ -61,3 +61,5 @@ const logosCommercial = `
     <a href="https://nj1015.com/" target="_blank" class="boxShadowBig"
     style="color:darkslategray;background-color:gold;border-left:10px solid red;border-right:10px solid red;">Radio<br>101.5</a>
 `;
+
+const injectLogosCommercial = () => logosScroll.innerHTML += logosCommercial;

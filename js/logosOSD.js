@@ -22,3 +22,5 @@ const logosOSD = `
     class='boxShadowBig textShadowBlack' style="color:white;background-color:crimson">Cook<br><span
         style="font-size:1rem;background-color:maroon;padding: 0.25rem 0.25rem 1rem 1.5rem;margin:0 -1.5rem -1rem -1.5rem;">Pharmica</span></a>
 `;
+
+const injectLogosOSD = () => logosScroll.innerHTML += logosOSD;

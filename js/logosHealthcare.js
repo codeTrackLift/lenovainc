@@ -14,3 +14,5 @@ const logosHealthcare = `
             style="font-size: 1rem; background-color:gold;padding:0.5rem 1.5rem;margin:0 -1.5rem;">University
             Hospital</span></a>
 `;
+
+const injectLogosHealthcare = () => logosScroll.innerHTML += logosHealthcare;
