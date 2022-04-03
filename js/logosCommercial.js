@@ -5,7 +5,7 @@ const logosCommercial = `
             color:white;
             background-color:black
         ">
-        <span class='fst-italic' style="color:red;font-size:3rem;">V</span>erizon
+        <span class='fst-italic' style="letter-spacing:-7px;color:red;font-size:3rem;">V</span>erizon
     </a>
 
     <a href="https://www.borealisgroup.com/" 
@@ -117,8 +117,8 @@ const logosCommercial = `
             border-bottom:8px double navy;
             color:navy;
             background-color:silver;
-            font-size:1rem;
-        "><span style="font-size:1.5rem;">N</span>ew <span style="font-size:1.5rem;">J</span>ersey<br><span class="fst-italic">State Library</span>
+            font-size:0.75rem;
+        "><span style="font-size:1.5rem;">N</span>ew <span style="font-size:1.5rem;">J</span>ersey<br><span class="fontScript" style='font-size:1.5rem'>State Library</span>
     </a>
     
     <a href="https://princetonbar.com/" 
@@ -145,19 +145,18 @@ const logosCommercial = `
 
     <a href="https://retrofitness.com/" 
         target="_blank" 
-        class='fst-italic textShadowBlack fontScript'
+        class='fst-italic fontScript'
         style="
             font-size:1.5rem;
             background:linear-gradient(yellow, red);
             line-height:1;
             color:white;
-            border-bottom:12px solid black;
-            border-left:12px solid black;
-            border-right:12px solid black;
+            border-bottom:1px solid transparent;
+            border-left:1px solid transparent;
+            border-right:1px solid transparent;
             border-radius: 50%;
-            text-shadow: 2px 2px black;
         ">
-        <span style="font-size:1.5rem;">R</span>etro<br><span style="font-size:1.5rem;">F</span>itness
+        <div class='bg-black p-4' style='margin:-0.75rem;border-radius:50%'><span style="font-size:1.75rem;">R</span>etro<br><span style="font-size:1.5rem;">F</span>itness</div>
     </a>
 
     <a href="https://www.peacockinn.com/" 
