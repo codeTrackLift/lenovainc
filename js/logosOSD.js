@@ -37,7 +37,7 @@ const logosOSD = `
             border-radius:4px;
             line-height:1.1;
         ">
-        <span style="font-size:2rem;">G</span><span style="font-size:1.25rem;">uardian</span> <br><span style="font-size:1rem;background-color: navy;color:white;padding:0.5rem 1rem;margin:0 -1.75rem;">Drug
+        <span style="font-size:2rem;">G</span><span style="font-size:1.25rem;">uardian</span> <br><span style="font-size:1rem;background-color: navy;color:white;padding:0.5rem;margin:0 -1.75rem;">Drug
         Company</span>
     </a><a href='#' style='box-shadow:none;'></a>
 
@@ -57,6 +57,7 @@ const logosOSD = `
 
     <a href="https://www.roche.com/innovation/structure/genentech" 
         target="_blank" 
+        class='textShadowBlack'
         style="
             border-left:12px ridge white;
             border-right:12px groove white;
@@ -88,8 +89,9 @@ const logosOSD = `
             color:white;
             background-color:crimson;
             line-height:1.2;
+            padding: 14px 0;
         ">
-        Cook<br><span style="font-size:1rem;background-color:maroon;padding: 0.25rem 0.25rem 1rem 1.5rem;margin:0 -1.5rem -1rem -1.5rem;">Pharmica</span>
+        Cook<br><span style="font-size:1rem;background-color:maroon;padding:0.5rem 0.2rem 1rem 1.5rem;border-radius: 50% 0 0 0;">Pharmica</span>
     </a><a href='#' style='box-shadow:none;'></a>
 `;
 

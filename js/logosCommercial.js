@@ -38,6 +38,7 @@ const logosCommercial = `
         border-left:16px groove blue;
         border-top:8px groove blue;
         border-radius: 50% 0 0 0;
+        box-shadow:none;
     ">
     Flying Food<br>Group
     </a><a href='#' style='box-shadow:none;'></a>
@@ -128,7 +129,7 @@ const logosCommercial = `
             background-color:darkturquoise;
             font-size:1rem;
         ">
-        <span style="background-color:red;font-size:1.5rem;border-radius:50%;color:white;padding:0 0.5rem;;">P</span>rinceton<span style="background-color:aqua;border-radius:50%;padding:0 0.25rem;">B</span>ar &<br><span style="background-color:aqua;border-radius:50%;padding:0 0.25rem;">G</span>rill in Avalon
+        <span class='boxShadowBlack' style="background-color:red;font-size:1.5rem;border-radius:50%;color:white;padding:0 0.5rem;;">P</span>rinceton<span class='boxShadowBlack' style="background-color:aqua;border-radius:50%;padding:0 0.25rem;">B</span>ar &<br><span class='boxShadowBlack' style="background-color:aqua;border-radius:50%;padding:0 0.25rem;">G</span>rill in Avalon
     </a><a href='#' style='box-shadow:none;'></a>
 
     <a href="https://www.choicehotels.com/quality-inn" 
@@ -147,16 +148,16 @@ const logosCommercial = `
         target="_blank" 
         class='fst-italic fontScript'
         style="
-            font-size:1.5rem;
+            font-size:1.75rem;
             background:linear-gradient(yellow, red);
             line-height:1;
             color:white;
-            border-bottom:1px solid transparent;
-            border-left:1px solid transparent;
-            border-right:1px solid transparent;
+            border-bottom:4px solid transparent;
+            border-left:4px solid transparent;
+            border-right:12px solid transparent;
             border-radius: 50%;
         ">
-        <div class='bg-black p-4' style='margin:-0.75rem;border-radius:50%'><span style="font-size:1.75rem;">R</span>etro<br><span style="font-size:1.5rem;">F</span>itness</div>
+        <div class='bg-black py-3' style='margin:-0.75rem;border-radius:50%'><span style="font-size:1.75rem;">R</span>etro<br><span style="font-size:1.5rem;">F</span>itness</div>
     </a><a href='#' style='box-shadow:none;'></a>
 
     <a href="https://www.peacockinn.com/" 
@@ -191,6 +192,7 @@ const logosCommercial = `
 
     <a href="https://www.clearbrook-nj.com/" 
         target="_blank"
+        class='textShadowBlack'
         style="
             font-size:1rem;
             color:cornflowerblue;
@@ -203,6 +205,7 @@ const logosCommercial = `
 
     <a href="http://www.motbc.org/" 
         target="_blank"
+        class='textShadowBlack'
         style="
             font-size:1rem;
             color:white;

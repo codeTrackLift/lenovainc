@@ -8,7 +8,7 @@ const logosHealthcare = `
             border-radius: 50% 20% / 10% 40%;
             line-height: 1;
         ">
-        Aria<br><span class="text-white" style='font-size:1rem'>Health</span>
+        Aria<br><span class="text-white textShadowBlack" style='font-size:1rem'>Health</span>
     </a><a href='#' style='box-shadow:none;'></a>
 
     <a href="https://www.hamiltonhealthcarecenter.org/" 
@@ -26,7 +26,7 @@ const logosHealthcare = `
 
     <a href="https://www.virtua.org/locations/hospital-virtua-our-lady-of-lourdes" 
         target="_blank"
-        class="boxShadowBig"
+        class="boxShadowBig textShadowBlack"
         style="
             background-color:steelblue;
             color:white;
@@ -48,7 +48,7 @@ const logosHealthcare = `
             border-radius:4px;
             line-height:1;
         ">
-        R<span style="font-size:0.75rem;">obert</span>W<span style="font-size:0.75rem;">ood</span>J<span style="font-size:0.75rem;">ohnson</span><br><span style="font-size: 1rem; background-color:gold;padding:0.25rem;">University Hospital</span>
+        R<span style="font-size:0.75rem;">obert</span>W<span style="font-size:0.75rem;">ood</span>J<span style="font-size:0.75rem;">ohnson</span><br><span style="color:dimgray;font-size: 1rem; background-color:gold;padding:0.25rem;">University Hospital</span>
     </a><a href='#' style='box-shadow:none;'></a>
 `;
 
