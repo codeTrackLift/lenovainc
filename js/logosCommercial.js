@@ -145,14 +145,17 @@ const logosCommercial = `
 
     <a href="https://retrofitness.com/" 
         target="_blank" 
-        class='fst-italic textShadowBlack'
+        class='fst-italic textShadowBlack fontScript'
         style="
-            font-size:1rem;
-            background:rgb(50,50,50);
+            font-size:1.5rem;
+            background:linear-gradient(yellow, red);
+            line-height:1;
             color:white;
-            border-top:12px solid yellow;
-            border-bottom:12px solid orangered;
+            border-bottom:12px solid black;
+            border-left:12px solid black;
+            border-right:12px solid black;
             border-radius: 50%;
+            text-shadow: 2px 2px black;
         ">
         <span style="font-size:1.5rem;">R</span>etro<br><span style="font-size:1.5rem;">F</span>itness
     </a>
@@ -164,7 +167,8 @@ const logosCommercial = `
             color:dimgray;
             background-color:goldenrod;
             border-radius:50%;
-            border:2px solid dimgray
+            border:8px double dimgray;
+            line-height:1.2;
         ">
         Peacock<br><span class="text-silver">Inn</span>
     </a>
@@ -220,6 +224,7 @@ const logosCommercial = `
             border-left: 5px solid transparent;
             border-right: 5px solid transparent;
             border-bottom: 8px solid black;
+            line-height: 1.2;
         ">
         Princeton<br>University
     </a>
@@ -232,6 +237,7 @@ const logosCommercial = `
             background-color:gold;
             border-left:10px solid red;
             border-right:10px solid red;
+            line-height: 1.2;
         ">
         Radio<br>101.5
     </a>
