@@ -29,9 +29,10 @@ const myNavbar = `
                         Expertise
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                        <li><a id='dropdownOsd' class="dropdown-item nav-link" href="../pages/osd.html">Oral Solid Dosage</a></li>
-                        <li><a id='dropdownHealthcare' class="dropdown-item nav-link" href="../pages/healthcare.html">Healthcare</a></li>
+                        <li><a id='dropdownOsd' class="dropdown-item nav-link" href="../pages/biopharma.html">Biopharma</a></li>
                         <li><a id='dropdownCommercial' class="dropdown-item nav-link" href="../pages/commercial.html">Commercial</a></li>
+                        <li><a id='dropdownHealthcare' class="dropdown-item nav-link" href="../pages/healthcare.html">Healthcare</a></li>
+                        <li><a id='dropdownCompliance' class="dropdown-item nav-link" href="../pages/compliance.html">Compliance</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
