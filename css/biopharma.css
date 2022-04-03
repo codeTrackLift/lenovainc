@@ -94,6 +94,4 @@ hr {
 
 .imgRotate1:hover, .imgRotate2:hover {
     animation: spin 1s infinite linear;
-    background-color: #00857c;
-    padding: 2px;
 }

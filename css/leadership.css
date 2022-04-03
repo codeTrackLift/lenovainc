@@ -50,11 +50,5 @@
 }
 
 .imgRotate1:hover, .imgRotate2:hover {
-    animation: none;
-    transform: scale(0.5);
-}
-
-.imgRotate1:hover, .imgRotate2:hover {
     animation: spin 1s infinite ease-in-out;
-    background-color: #00857c;
 }

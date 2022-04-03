@@ -40,16 +40,15 @@ hr {
 }
 
 .imgRotate1 {
-    animation: iconRotate 4s infinite ease-in-out 1.5s;
+    animation: iconRotate 4s infinite ease-in-out 0.5s;
     transition: all 1s ease-in-out;
 }
 
 .imgRotate2 {
-    animation: iconRotate 4s infinite ease-in-out 2s;
+    animation: iconRotate 4s infinite ease-in-out 1s;
     transition: all 1s ease-in-out;
 }
 
 .imgRotate1:hover, .imgRotate2:hover {
     animation: spin 1s infinite ease-in-out;
-    background-color: red;
 }
