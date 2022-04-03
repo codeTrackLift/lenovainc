@@ -38,10 +38,6 @@ nav,.dropdown-menu {
     animation: iconRotate3d 2s infinite ease-in-out;
 }
 
-.navbar-toggler:hover {
-    animation: iconRotate3d 2s infinite ease-in-out;
-}
-
 @keyframes iconRotate3d {
     0% {
         transform: scale(1);
