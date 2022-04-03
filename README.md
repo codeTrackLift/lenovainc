@@ -1,15 +1,15 @@
-# <img src='./pics/lenovalogosmall.gif' alt='LeNova, Inc. logo' height='20'> LeNova, Inc.
+# <img src='./pics/logos/lenovalogosmall.gif' alt='LeNova, Inc. logo' height='20'> LeNova, Inc.
 
 Visit [www.lenovainc.com](https://www.lenovainc.com) for professional engineering and technology solutions.
 
 >**Skills Utilized**:
 <ol>
     <li>Languages: HTML, CSS, JavaScript</li>
-    <li>Media Queries</li>
-    <li>Bootstrap</li>
-    <li>Scroll Magic</li>
+    <li>Responsive Web Design | Mobile First</li>
     <li>CSS Flex and Transitions</li>
-    <li>Responsive Web Design</li>
+    <li>Bootstrap</li>
+    <li>Media Queries</li>
+    <li>Scroll Magic</li>
 </ol>
 
 ## About
@@ -20,14 +20,14 @@ This is my first contract Web Developer project. Thanks for the opportunity to c
 ## Features & Roadmap
 - [x] 'Under Construction' placeholder
 - [x] Custom designed logo
-- [x] Fully responsive design
-- [x] Mobile compatible
-- [x] Contact Us section build-out
-- [x] About Us section build-out
-- [ ] Leadership section build-out
-- [ ] Expertise section 1 build-out
-- [ ] Expertise section 2 build-out
-- [ ] Expertise section 3 build-out
+- [x] Contact Us build-out
+- [x] About Us build-out
+- [X] Leadership build-out
+- [X] Biopharma build-out
+- [X] Commercial build-out
+- [X] Social proof 'stock ticker'
+- [X] Healthcare build-out
+- [ ] Compliance build-out
 
 ## Project Photographs are Property of LeNova, Inc.
 
