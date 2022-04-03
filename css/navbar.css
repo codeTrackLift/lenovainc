@@ -47,7 +47,7 @@ nav,.dropdown-menu {
         transform: scale(1);
     }
     50% {
-        transform: scale(-1, 1) scale(1);
+        transform: scale(-1, 1) scale(1) rotate(90deg);
     }
     100% {
         transform: scale(1);
