@@ -6,8 +6,8 @@ const logosCommercial = `
             background-color:black
         ">
         <span class='fst-italic' style="letter-spacing:-7px;color:red;font-size:3rem;">V</span>erizon
-    </a>
-
+    </a><a href='#' style='box-shadow:none;'></a>
+    
     <a href="https://www.borealisgroup.com/" 
         target="_blank" 
         class="boxShadowBig"
@@ -18,7 +18,7 @@ const logosCommercial = `
             border-bottom:4px solid steelblue;
         ">
         Borealis<br><span class='textShadowBlack' style="color:white;font-size:1.25rem;">Chemicals</span>
-    </a>
+    </a><a href='#' style='box-shadow:none;'></a>
 
     <a href="https://www.genadyne.com/" 
         target="_blank" 
@@ -29,7 +29,7 @@ const logosCommercial = `
             border-radius:50% 0 50% 0;
         ">
         GENADYNE<br><span style="font-size:1.25rem;font-weight:normal">Medical Devices</span>
-    </a>
+    </a><a href='#' style='box-shadow:none;'></a>
 
     <a href="https://flyingfood.com/" 
     target="_blank" 
@@ -40,7 +40,7 @@ const logosCommercial = `
         border-radius: 50% 0 0 0;
     ">
     Flying Food<br>Group
-    </a>
+    </a><a href='#' style='box-shadow:none;'></a>
 
     <a href="https://www2.gerdau.com/" 
         target="_blank" 
@@ -52,7 +52,7 @@ const logosCommercial = `
             border-radius:50%;
         ">
         GERDAU<br><span class="textShadowBlack" style="color:white;font-size:1.25rem;">Steel Mill</span>
-    </a>
+    </a><a href='#' style='box-shadow:none;'></a>
 
     <a href="https://gelspice.com/" 
         target="_blank" 
@@ -63,7 +63,7 @@ const logosCommercial = `
             border-radius:50%;
         ">
         Gel Spice<br><span style="color:red;font-size:1.25rem;">Company</span>
-    </a>
+    </a><a href='#' style='box-shadow:none;'></a>
 
     <a href="https://crpindustries.com/" 
         target="_blank" 
@@ -72,7 +72,7 @@ const logosCommercial = `
             color:cornflowerblue;
             border:4px solid cornflowerblue
         ">C<span style="color:blue">R</span><span style="color:navy">P</span><br><span class='fst-italic' style="color:blue">Industries</span>
-    </a>
+    </a><a href='#' style='box-shadow:none;'></a>
 
     <a href="#" 
         class="boxShadowBig"
@@ -82,7 +82,7 @@ const logosCommercial = `
             border-radius:10px 100px / 120px;
         ">
         Alliant<br>TechSystems
-    </a>
+    </a><a href='#' style='box-shadow:none;'></a>
 
     <a href="https://www.bedminsterschool.org/" 
         target="_blank" 
@@ -95,7 +95,7 @@ const logosCommercial = `
             border-right:8px double navy;
         ">Bedminster<br><span
         class="text-white">School</span>
-    </a>
+    </a><a href='#' style='box-shadow:none;'></a>
 
     <a href="https://www.chatham-nj.org/" 
         target="_blank"
@@ -107,7 +107,7 @@ const logosCommercial = `
             border-top:12px double white;
             border-bottom:12px double white;
         ">Chathams<br>School
-    </a>
+    </a><a href='#' style='box-shadow:none;'></a>
 
     <a href="https://www.njstatelib.org/" 
         target="_blank" 
@@ -119,7 +119,7 @@ const logosCommercial = `
             background-color:silver;
             font-size:0.75rem;
         "><span style="font-size:1.5rem;">N</span>ew <span style="font-size:1.5rem;">J</span>ersey<br><span class="fontScript" style='font-size:1.5rem'>State Library</span>
-    </a>
+    </a><a href='#' style='box-shadow:none;'></a>
     
     <a href="https://princetonbar.com/" 
         target="_blank"
@@ -129,7 +129,7 @@ const logosCommercial = `
             font-size:1rem;
         ">
         <span style="background-color:red;font-size:1.5rem;border-radius:50%;color:white;padding:0 0.5rem;;">P</span>rinceton<span style="background-color:aqua;border-radius:50%;padding:0 0.25rem;">B</span>ar &<br><span style="background-color:aqua;border-radius:50%;padding:0 0.25rem;">G</span>rill in Avalon
-    </a>
+    </a><a href='#' style='box-shadow:none;'></a>
 
     <a href="https://www.choicehotels.com/quality-inn" 
         target="_blank" 
@@ -141,7 +141,7 @@ const logosCommercial = `
             border-radius:4px;
         ">
         <span style="color:goldenrod;font-size:2rem;">Q</span>uality<br><span class="text-white fs-6">Inn &Suites</span>
-    </a>
+    </a><a href='#' style='box-shadow:none;'></a>
 
     <a href="https://retrofitness.com/" 
         target="_blank" 
@@ -157,7 +157,7 @@ const logosCommercial = `
             border-radius: 50%;
         ">
         <div class='bg-black p-4' style='margin:-0.75rem;border-radius:50%'><span style="font-size:1.75rem;">R</span>etro<br><span style="font-size:1.5rem;">F</span>itness</div>
-    </a>
+    </a><a href='#' style='box-shadow:none;'></a>
 
     <a href="https://www.peacockinn.com/" 
         target="_blank" 
@@ -170,7 +170,7 @@ const logosCommercial = `
             line-height:1.2;
         ">
         Peacock<br><span class="text-silver">Inn</span>
-    </a>
+    </a><a href='#' style='box-shadow:none;'></a>
 
     <a href="https://www.the-anchor.church/" 
         target="_blank"
@@ -187,7 +187,7 @@ const logosCommercial = `
             border-radius:0 0 50% 50%;
         ">
         The Anchor<br>Presbyterian<br>Church
-    </a>
+    </a><a href='#' style='box-shadow:none;'></a>
 
     <a href="https://www.clearbrook-nj.com/" 
         target="_blank"
@@ -199,7 +199,7 @@ const logosCommercial = `
             border-radius: 50% 20% / 10% 40%;
         ">
         CLEARBROOK<br>Adult Living
-    </a>
+    </a><a href='#' style='box-shadow:none;'></a>
 
     <a href="http://www.motbc.org/" 
         target="_blank"
@@ -210,7 +210,7 @@ const logosCommercial = `
             border:2px solid dimgray;
         ">
         Mount Olivet<br>Baptist Church
-    </a>
+    </a><a href='#' style='box-shadow:none;'></a>
 
     <a href="https://www.princeton.edu/" 
         target="_blank" 
@@ -226,7 +226,7 @@ const logosCommercial = `
             line-height: 1.2;
         ">
         Princeton<br>University
-    </a>
+    </a><a href='#' style='box-shadow:none;'></a>
 
     <a href="https://nj1015.com/" 
         target="_blank" 
@@ -239,7 +239,7 @@ const logosCommercial = `
             line-height: 1.2;
         ">
         Radio<br>101.5
-    </a>
+    </a><a href='#' style='box-shadow:none;'></a>
 `;
 
 const injectLogosCommercial = () => logosScroll.innerHTML += logosCommercial;

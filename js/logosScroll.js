@@ -8,13 +8,12 @@ window.addEventListener('load', () => {
 
         if (!isElementInViewport(first)) {
             logosScroll.appendChild(first);
-            // logosScroll.scrollLeft = first.offsetWidth + 20;
             logosScroll.scrollTo(logosScroll.scrollLeft - first.offsetWidth -28, 0);
         }
         if (logosScroll.scrollLeft !== logosScrollWidth) {
-            logosScroll.scrollTo(logosScroll.scrollLeft + 2, 0);
+            logosScroll.scrollTo(logosScroll.scrollLeft + 1, 0);
         }
-    }, 25);
+    }, 10);
 });
 
 function isElementInViewport(el) {

@@ -11,7 +11,7 @@ const logosOSD = `
             line-height:1;
         ">
         MERCK<br><span style="color:white;font-size:1.25rem;">Biopharma</span>
-    </a>
+    </a><a href='#' style='box-shadow:none;'></a>
 
     <a href="https://www.bms.com/" 
         target="_blank" 
@@ -25,7 +25,7 @@ const logosOSD = `
             line-height: 1;
         ">
         BMS<br><span style="font-size:1.25rem;color:white;">R&D</span>
-    </a>
+    </a><a href='#' style='box-shadow:none;'></a>
 
     <a href="https://www.guardiandrug.com/" 
         target="_blank" 
@@ -39,7 +39,7 @@ const logosOSD = `
         ">
         <span style="font-size:2rem;">G</span><span style="font-size:1.25rem;">uardian</span> <br><span style="font-size:1rem;background-color: navy;color:white;padding:0.5rem 1rem;margin:0 -1.75rem;">Drug
         Company</span>
-    </a>
+    </a><a href='#' style='box-shadow:none;'></a>
 
     <a href="https://churchdwight.com/" 
         target="_blank" 
@@ -53,7 +53,7 @@ const logosOSD = `
             letter-spacing:-3px;
         ">
         CHURCH<br><span style='font-size:1rem;'>&</span><span><br>DWIGHT
-    </a>
+    </a><a href='#' style='box-shadow:none;'></a>
 
     <a href="https://www.roche.com/innovation/structure/genentech" 
         target="_blank" 
@@ -67,7 +67,7 @@ const logosOSD = `
             line-height: 1.2;
         ">
         Roche<br>Genentech
-    </a>
+    </a><a href='#' style='box-shadow:none;'></a>
 
     <a href="https://www.renpharm.com/" 
         target="_blank" 
@@ -79,7 +79,7 @@ const logosOSD = `
             font-weight:normal;
         ">
         <span style='background:linear-gradient(navy, green);border-radius:50%'>Re</span>na<span style='background:linear-gradient(navy, green);border-radius:50%'>iss</span>an<span style='background:linear-gradient(navy, green);border-radius:50%'>ce</span><br><span style='background:linear-gradient(navy, green);border-radius:50%'>Ph</span>ar<span style='background:linear-gradient(navy, green);border-radius:50%'>ma</span>
-    </a>
+    </a><a href='#' style='box-shadow:none;'></a>
 
     <a href="https://www.cookgroup.com/cook-group-completes-sale-of-cook-pharmica/" 
         target="_blank"
@@ -90,7 +90,7 @@ const logosOSD = `
             line-height:1.2;
         ">
         Cook<br><span style="font-size:1rem;background-color:maroon;padding: 0.25rem 0.25rem 1rem 1.5rem;margin:0 -1.5rem -1rem -1.5rem;">Pharmica</span>
-    </a>
+    </a><a href='#' style='box-shadow:none;'></a>
 `;
 
 const injectLogosOSD = () => logosScroll.innerHTML += logosOSD;
