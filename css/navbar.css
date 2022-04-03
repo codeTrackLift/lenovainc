@@ -32,9 +32,6 @@ nav,.dropdown-menu {
 
 #navBarIcon {
     transition: transform 1s ease-in-out;
-}
-
-#navBarIcon {
     animation: iconRotate3d 2s infinite ease-in-out;
 }
 
