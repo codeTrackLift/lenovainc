@@ -77,3 +77,10 @@ var btnBottom = new ScrollMagic.Scene({
 })
 .setClassToggle('.btnBottom', 'show')
 .addTo(controllerBtnBottom);
+
+var controllerCartoonPeople = new ScrollMagic.Controller();
+var cartoonPeople = new ScrollMagic.Scene({
+    triggerElement: '#cartoonPeople',
+})
+.setClassToggle('#cartoonPeople', 'show')
+.addTo(controllerCartoonPeople);
