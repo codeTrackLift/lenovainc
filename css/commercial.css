@@ -52,5 +52,4 @@ hr {
 .imgRotate1:hover, .imgRotate2:hover {
     animation: spin 1s infinite alternate-reverse ease-in-out;
     background-color: yellow;
-    padding: 4px;
 }
