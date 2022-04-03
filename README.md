@@ -20,6 +20,7 @@ This is my first contract Web Developer project. Thanks for the opportunity to c
 ## Features & Roadmap
 - [x] 'Under Construction' placeholder
 - [x] Custom designed logo
+- [x] Custom '3d rotating' Collapsed Navbar Icon 
 - [x] Contact Us build-out
 - [x] About Us build-out
 - [X] Leadership build-out
