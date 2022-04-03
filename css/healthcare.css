@@ -51,7 +51,6 @@ hr {
 
 .imgRotate1:hover, .imgRotate2:hover {
     animation: iconRotateColors 1s infinite ease-in-out 0.25s;
-    padding: 4px;
 }
 
 @keyframes iconRotateColors {
