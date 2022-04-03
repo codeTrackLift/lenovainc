@@ -49,20 +49,22 @@ const logosOSD = `
             color:white;
             border-radius:50%;
             border:12px double white;
-            line-height:1;
+            line-height:0.9;
             letter-spacing:-3px;
         ">
-        CHURCH<br>&<br>DWIGHT
+        CHURCH<br><span style='font-size:1rem;'>&</span><span><br>DWIGHT
     </a>
 
     <a href="https://www.roche.com/innovation/structure/genentech" 
         target="_blank" 
-        class="textShadowBlack"
         style="
-            border-left:12px double navy;
-            border-right:12px double navy;
-            color:navy;
-            border-radius:25%;
+            border-left:12px ridge white;
+            border-right:12px groove white;
+            color:white;
+            background-color:navy;
+            border-radius:0 25% 0 25%;
+            font-weight: normal;
+            line-height: 1.2;
         ">
         Roche<br>Genentech
     </a>
@@ -71,11 +73,12 @@ const logosOSD = `
         target="_blank" 
         class="boxShadowBig textShadowBlack"
         style="
-            background:linear-gradient(navy, green);
+            background:black;
             color:white;
-            border-radius:12px;
+            line-height:1;
+            font-weight:normal;
         ">
-        Renaissance<br>Pharma
+        <span style='background:linear-gradient(navy, green);border-radius:50%'>Re</span>na<span style='background:linear-gradient(navy, green);border-radius:50%'>iss</span>an<span style='background:linear-gradient(navy, green);border-radius:50%'>ce</span><br><span style='background:linear-gradient(navy, green);border-radius:50%'>Ph</span>ar<span style='background:linear-gradient(navy, green);border-radius:50%'>ma</span>
     </a>
 
     <a href="https://www.cookgroup.com/cook-group-completes-sale-of-cook-pharmica/" 
