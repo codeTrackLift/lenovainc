@@ -200,7 +200,6 @@ div.scrollmenu a:hover {
     }
 }
 
-
 footer {
     color: white;
     background-color: #00857c;
@@ -244,8 +243,14 @@ footer {
     0% {
         transform: scale(1);
     }
-    50% {
+    25% {
         transform: scale(-1, 1) scale(1) rotate(45deg);
+    }
+    50% {
+        transform: scale(1) rotate(90deg);
+    }
+    75% {
+        transform: scale(-1, 1) scale(1) rotate(-45deg);
     }
     100% {
         transform: scale(1);
