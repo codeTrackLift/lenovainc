@@ -30,6 +30,7 @@ This is my first contract Web Developer project. Thanks for the opportunity to c
 - [x] Healthcare build-out
 - [x] Compliance build-out
 
+
 ## Project Photographs are Property of LeNova, Inc.
 
 >Copyright (c) 2022 LeNova, Inc.
