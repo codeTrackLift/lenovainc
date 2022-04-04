@@ -52,3 +52,12 @@ hr {
 .imgRotate1:hover, .imgRotate2:hover {
     animation: spin 1s infinite ease-in-out;
 }
+
+div.scrollmenu>a {
+    box-shadow: none;
+}
+
+div.scrollmenu>a>img {
+    max-height: 4rem;
+    max-width: 8rem;
+}
