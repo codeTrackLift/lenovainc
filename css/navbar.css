@@ -32,7 +32,7 @@ nav,.dropdown-menu {
 
 #navBarIcon {
     transition: transform 1s ease-in-out;
-    animation: iconRotate3d2 4s infinite ease-in-out;
+    animation: iconRotate3d2 10s infinite ease-in-out;
 }
 
 .navbar-toggler {
@@ -41,7 +41,7 @@ nav,.dropdown-menu {
     border-top: 2px solid transparent !important;
     border-bottom: 2px solid transparent !important;
     border-radius: 50%;
-    animation: iconRotate3d 12s infinite ease-in-out;
+    animation: iconRotate3d3 20s infinite ease-in-out;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 

@@ -210,7 +210,7 @@ footer {
     height: 2rem;
     margin: auto 0.25rem;
     padding: 0.25rem;
-    animation: iconRotate3d2 4s infinite ease-in-out;
+    animation: iconRotate3d3 6s infinite ease-in-out;
     border-radius: 50%;
 }
 
@@ -243,11 +243,41 @@ footer {
     0% {
         transform: scale(1);
     }
+    12.5% {
+        transform: scale(-1, 1) scale(1) rotate(45deg);
+    }
+    25% {
+        transform: scale(1) rotate(90deg);
+    }
+    37.5% {
+        transform: scale(-1, 1) scale(1) rotate(135deg);
+    }
+    50% {
+        transform: scale(1) rotate(180deg);
+    }
+    62.5% {
+        transform: scale(-1, 1) scale(1) rotate(225deg);
+    }
+    75% {
+        transform: scale(1) rotate(270deg);
+    }
+    87.5% {
+        transform: scale(-1, 1) scale(1) rotate(315deg);
+    }
+    100% {
+        transform: scale(1) rotate(360deg);
+    }
+}
+
+@keyframes iconRotate3d3 {
+    0% {
+        transform: scale(1);
+    }
     25% {
         transform: scale(-1, 1) scale(1) rotate(45deg);
     }
     50% {
-        transform: scale(1) rotate(90deg);
+        transform: scale(1);
     }
     75% {
         transform: scale(-1, 1) scale(1) rotate(-45deg);
