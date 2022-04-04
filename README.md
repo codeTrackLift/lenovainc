@@ -23,12 +23,12 @@ This is my first contract Web Developer project. Thanks for the opportunity to c
 - [x] '3d rotating' Collapsed Navbar Icon 
 - [x] Contact Us build-out
 - [x] About Us build-out
-- [X] Leadership build-out
-- [X] Biopharma build-out
-- [X] Commercial build-out
-- [X] Social proof 'stock ticker'
-- [X] Healthcare build-out
-- [ ] Compliance build-out
+- [x] Leadership build-out
+- [x] Biopharma build-out
+- [x] Commercial build-out
+- [x] Social proof 'stock ticker'
+- [x] Healthcare build-out
+- [x] Compliance build-out
 
 ## Project Photographs are Property of LeNova, Inc.
 
