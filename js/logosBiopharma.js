@@ -1,4 +1,4 @@
-const logosOSD = `
+const logosBiopharma = `
     <a href="https://www.merck.com" 
         target="_blank" 
         class="boxShadowBig textShadowBlack"
@@ -96,4 +96,4 @@ const logosOSD = `
     </a><a href='#' style='box-shadow:none;'></a>
 `;
 
-const injectLogosOSD = () => logosScroll.innerHTML += logosOSD;
+const injectLogosBiopharma = () => logosScroll.innerHTML += logosBiopharma;
