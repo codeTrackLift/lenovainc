@@ -43,7 +43,7 @@ hr {
 }
 
 #pillBottleCartoon:hover {
-    animation: iconRotate 2s ease-in-out infinite alternate-reverse;
+    animation: spin 2s ease-in-out infinite;
 }
 
 .bgParallax {
