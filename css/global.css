@@ -206,11 +206,24 @@ footer {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
+#footerIconWrapper {
+    background-color: transparent;
+    border-radius: 50%;
+    border-left: 1px solid silver !important;
+    border-right: 1px solid cyan !important;
+    border-top: 1px solid transparent !important;
+    border-bottom: 1px solid transparent !important;
+    border-radius: 50%;
+    transition: all 1s ease-in-out;
+    animation: iconRotate3d3 20s infinite ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
 #footerIcon {
     height: 2rem;
     margin: auto 0.25rem;
     padding: 0.25rem;
-    animation: iconRotate3d3 6s infinite ease-in-out;
+    animation: iconRotate3d2 10s infinite ease-in-out;
     border-radius: 50%;
 }
 
