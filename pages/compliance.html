@@ -186,9 +186,30 @@
     </div>
 
     <div id='logos' class='container-fluid text-dark text-center mt-5'>
-        <h2 class="fontPermanentMarker">We have completed projects with</h2>
+        <h2 class="fontPermanentMarker">Our Compliance and Regulatory Experience</h2>
         <div class="d-flex">
-            <div id='logosScroll' class="scrollmenu"></div>
+            <div id='logosScroll' class="scrollmenu">
+                <a href="https://ispe.org/" 
+                target="_blank" 
+                class="textShadowBlack dropShadow"
+                style="
+                    line-height: 1;
+                    border-radius: 50%;
+                    padding: 28px 14px;
+                    color:dimgray;
+                    font-size: 1.75rem;
+                    box-shadow:none;
+                    background: repeating-linear-gradient(
+                        135deg,
+                        transparent,
+                        transparent 12.5px,
+                        cornflowerblue 12.5px,
+                        cornflowerblue 25px
+                    );
+                ">
+                ISPE
+            </a><a href='#' style='box-shadow:none;'></a>
+            </div>
         </div>
         <div class="container-fluid mt-4">
             <a href="../pages/contact.html" class='btn btnBottom mb-4 mx-5 float-start'>Contact Us!</a>
@@ -207,15 +228,13 @@
     <script src="../js/navbar.js"></script>
     <script src='../js/scrollMagic.js'></script>
     <script src='../js/logosScroll.js'></script>
-    <script src="../js/logosOSD.js"></script>
-    <script src="../js/logosHealthcare.js"></script>
+    <script src="../js/logosCompliance.js"></script>
     <script src="../js/footer.js"></script>
     <script>
         injectMyNavbar();
         setActiveNavlink('nav-linkExpertise');
         setActiveNavlink('dropdownCompliance');
-        injectLogosOSD();
-        injectLogosHealthcare();
+        // injectLogosCompliance();
         injectMyFooter();
     </script>
 </body>
