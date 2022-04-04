@@ -6,7 +6,7 @@ Visit [www.lenovainc.com](https://www.lenovainc.com) for professional engineerin
 <ol>
     <li>Languages: HTML, CSS, JavaScript</li>
     <li>Responsive Web Design | Mobile First</li>
-    <li>CSS Flex and Transitions</li>
+    <li>CSS Animations</li>
     <li>Bootstrap</li>
     <li>Media Queries</li>
     <li>Scroll Magic</li>
