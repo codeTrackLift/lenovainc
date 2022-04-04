@@ -32,19 +32,7 @@ nav,.dropdown-menu {
 
 #navBarIcon {
     transition: transform 1s ease-in-out;
-    animation: iconRotate3d 2s infinite ease-in-out;
-}
-
-@keyframes iconRotate3d {
-    0% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(-1, 1) scale(1) rotate(90deg);
-    }
-    100% {
-        transform: scale(1);
-    }
+    animation: iconRotate3d2 2s infinite ease-in-out;
 }
 
 .navbar-toggler {

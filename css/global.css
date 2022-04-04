@@ -200,6 +200,22 @@ div.scrollmenu a:hover {
     }
 }
 
+
+footer {
+    color: white;
+    background-color: #00857c;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#footerIcon {
+    height: 2rem;
+    margin: auto 0.25rem;
+    padding: 0.25rem;
+    animation: iconRotate3d2 4s infinite ease-in-out;
+    border-radius: 50%;
+}
+
+/* Icon Rotate Animations Below */
 @keyframes iconRotate {
     0% {
         transform: scale(1);
@@ -212,16 +228,26 @@ div.scrollmenu a:hover {
     }
 }
 
-footer {
-    color: white;
-    background-color: #00857c;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+@keyframes iconRotate3d {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(-1, 1) scale(1) rotate(90deg);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
 
-#footerIcon {
-    height: 2rem;
-    margin: auto 0.25rem;
-    padding: 0.25rem;
-    animation: iconRotate3d 4s infinite ease-in-out;
-    border-radius: 50%;
+@keyframes iconRotate3d2 {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(-1, 1) scale(1) rotate(45deg);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
