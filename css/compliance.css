@@ -10,16 +10,6 @@ hr {
     opacity: 1;
 }
 
-#hospitalCartoon {
-    height: 5rem;
-    margin: 0 1rem;
-    transition: transform 0.5s ease-in-out;
-}
-
-#hospitalCartoon:hover {
-    animation: iconRotate 2s ease-in-out infinite alternate-reverse;
-}
-
 .bgParallax {
     background-image: url('../pics/compliance/qualityCircles.jpg');
     animation: bgParallax 180s ease-in-out infinite;

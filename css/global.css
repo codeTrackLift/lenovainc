@@ -281,24 +281,6 @@ footer {
         transform: scale(1) rotate(360deg);
     }
 }
-/* 
-@keyframes iconRotate3d3 {
-    0% {
-        transform: scale(1);
-    }
-    45% {
-        transform: scale(-1, 1) scale(1) rotate(45deg);
-    }
-    50% {
-        transform: scale(1);
-    }
-    95% {
-        transform: scale(-1, 1) scale(1) rotate(-45deg);
-    }
-    100% {
-        transform: scale(1);
-    }
-} */
 
 @keyframes iconRotate3d3 {
     0% {
