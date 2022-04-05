@@ -254,7 +254,7 @@ footer {
 
 @keyframes iconRotate3d2 {
     0% {
-        transform: scale(1);
+        transform: scale(1) rotate(0deg);
     }
     12.5% {
         transform: scale(-1, 1) scale(1) rotate(45deg);
