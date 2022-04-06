@@ -45,3 +45,68 @@
     97.5% { background-image: radial-gradient(farthest-side at 2.5% 97.5%, silver, #00857c, #00857c); }
     100% { background-image: radial-gradient(farthest-side at 0% 100%, silver, #00857c, #00857c); }
 }
+
+
+/* Icon Rotate Animations Below */
+@keyframes iconRotate {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(-1, 1) scale(1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes iconRotate3d {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(-1, 1) scale(1) rotate(90deg);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes iconRotate3d2 {
+    0% {
+        transform: scale(1) rotate(0deg);
+    }
+    12.5% {
+        transform: scale(-1, 1) scale(1) rotate(30deg);
+    }
+    25% {
+        transform: scale(1) rotate(-15deg);
+    }
+    37.5% {
+        transform: scale(-1, 1) scale(1) rotate(-45deg);
+    }
+    50% {
+        transform: scale(1) rotate(10deg);
+    }
+    62.5% {
+        transform: scale(-1, 1) scale(1) rotate(-75deg);
+    }
+    75% {
+        transform: scale(1) rotate(60deg);
+    }
+    87.5% {
+        transform: scale(-1, 1) scale(1) rotate(0deg);
+    }
+    100% {
+        transform: scale(1) rotate(45deg);
+    }
+}
+
+@keyframes iconRotate3d3 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

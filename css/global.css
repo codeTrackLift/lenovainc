@@ -215,7 +215,7 @@ footer {
     border-bottom: 1px solid transparent !important;
     border-radius: 50%;
     transition: all 1s ease-in-out;
-    animation: iconRotate3d3 20s infinite ease-in-out;
+    animation: iconRotate3d3 15s infinite alternate ease-in-out;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
@@ -223,70 +223,6 @@ footer {
     height: 2rem;
     margin: auto 0.25rem;
     padding: 0.25rem;
-    animation: iconRotate3d2 10s infinite ease-in-out;
+    animation: iconRotate3d2 15s infinite alternate ease-in-out;
     border-radius: 50%;
-}
-
-/* Icon Rotate Animations Below */
-@keyframes iconRotate {
-    0% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(-1, 1) scale(1);
-    }
-    100% {
-        transform: scale(1);
-    }
-}
-
-@keyframes iconRotate3d {
-    0% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(-1, 1) scale(1) rotate(90deg);
-    }
-    100% {
-        transform: scale(1);
-    }
-}
-
-@keyframes iconRotate3d2 {
-    0% {
-        transform: scale(1) rotate(0deg);
-    }
-    12.5% {
-        transform: scale(-1, 1) scale(1) rotate(45deg);
-    }
-    25% {
-        transform: scale(1) rotate(90deg);
-    }
-    37.5% {
-        transform: scale(-1, 1) scale(1) rotate(135deg);
-    }
-    50% {
-        transform: scale(1) rotate(180deg);
-    }
-    62.5% {
-        transform: scale(-1, 1) scale(1) rotate(225deg);
-    }
-    75% {
-        transform: scale(1) rotate(270deg);
-    }
-    87.5% {
-        transform: scale(-1, 1) scale(1) rotate(315deg);
-    }
-    100% {
-        transform: scale(1) rotate(360deg);
-    }
-}
-
-@keyframes iconRotate3d3 {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
 }
